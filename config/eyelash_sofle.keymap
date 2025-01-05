@@ -63,7 +63,7 @@
             display-name = "base";
         };
 
-        layer_1 {
+        nav {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8        &kp F9     &kp F10           &trans
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp HOME         &kp PG_DN        &kp PG_DN     &kp END    &kp MINUS         &kp EQUAL
@@ -72,7 +72,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans        &trans     &trans
             >;
 
-            display-name = "nav";
+            display-name = "base";
             sensor-bindings = <&scroll_encoder>;
         };
 
