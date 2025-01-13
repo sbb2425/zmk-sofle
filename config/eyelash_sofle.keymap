@@ -90,7 +90,7 @@
 &trans  &trans        &trans        &trans            &trans          &trans       &trans  &trans                 &trans        &trans        &trans        &trans     &trans
 &kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &trans  &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PLUS   &kp ASTERISK
 &kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &trans  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp SLASH
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp PIPE     &trans  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp EQUAL
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp EQUAL
 &trans  &trans        &trans        &trans            &trans          &kp SPACE    &trans  &kp ENTER              &trans        &trans        &trans        &trans
             >;
 
@@ -102,7 +102,7 @@
 &trans  &trans        &trans        &trans         &trans            &trans            &trans  &trans                &trans                &trans                 &trans           &trans     &trans
 &trans  &kp TILDE     &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp CARET         &trans  &kp DOUBLE_QUOTES     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp PLUS   &kp ASTERISK
 &trans  &kp AT_SIGN   &kp HASH      &kp DOLLAR     &kp PERCENT       &kp AMPERSAND     &trans  &kp SQT               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp MINUS  &kp SLASH
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL      &kp LEFT_SHIFT    &kp UNDERSCORE    &trans  &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERIOD       &kp COMMA  &kp EQUAL
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL      &kp LEFT_SHIFT    &kp UNDERSCORE    &trans  &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE         &kp COMMA  &kp EQUAL
 &trans  &trans        &trans        &trans         &trans            &trans            &trans  &trans                &trans                &trans                 &trans           &trans
             >;
         };
