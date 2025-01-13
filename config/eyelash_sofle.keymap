@@ -74,11 +74,11 @@
 
         nav {
             bindings = <
-&trans      &trans     &trans          &trans          &trans           &trans    &mmv MOVE_UP     &trans    &trans     &trans        &trans     &trans            &kp DELETE
-&trans      &kp GRAVE  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans    &mmv MOVE_DOWN   &kp HOME  &kp PG_DN  &kp PG_DN     &kp END    &kp MINUS         &kp EQUAL
-&kp ESCAPE  &kp TILDE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans     &mkp MB4        &mkp MCLK       &mkp MB5         &trans    &mmv MOVE_RIGHT  &trans    &trans     &trans        &trans     &trans            &trans
-&kp C_MUTE  &trans     &trans          &trans          &trans           &trans    &mkp LCLK        &trans    &trans     &trans        &trans     &trans
+&trans      &trans        &trans          &trans          &trans           &trans       &mmv MOVE_UP     &trans         &trans      &trans        &trans     &trans            &kp DELETE
+&trans      &kp GRAVE     &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &mkp MCLK    &mmv MOVE_DOWN   &kp HOME       &kp PG_DN   &kp PG_DN     &kp END    &kp MINUS         &kp EQUAL
+&kp ESCAPE  &kp TILDE     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4     &mmv MOVE_LEFT   &kp LEFT       &kp DOWN    &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp LEFT_GUI  &kp LEFT_ALT    &kp LCTRL       &kp LEFT_SHIFT   &mkp MB5     &mmv MOVE_RIGHT  &kp BACKSPACE  &kp DELETE  &trans        &trans     &trans            &trans
+&kp C_MUTE  &trans        &trans          &trans          &trans           &trans       &mkp LCLK        &trans         &trans      &trans        &trans     &trans
             >;
 
             display-name = "base";
