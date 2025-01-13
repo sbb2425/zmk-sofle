@@ -99,11 +99,11 @@
 
         sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans                &trans                 &trans          &trans     &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &kp PLUS   &kp ASTERISK
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp MINUS  &kp SLASH
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERIOD      &kp COMMA  &kp EQUAL
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans                &trans                 &trans          &trans
             >;
         };
 
