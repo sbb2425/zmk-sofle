@@ -94,7 +94,7 @@
 &trans  &trans        &trans        &trans            &trans          &kp SPACE    &trans           &kp ENTER              &trans        &trans        &trans        &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         sym {
