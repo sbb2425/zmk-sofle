@@ -99,11 +99,11 @@
 
         sym {
             bindings = <
-&trans  &trans        &trans        &trans         &trans            &trans            &trans  &trans                &trans                &trans                 &trans           &trans     &trans
-&trans  &kp TILDE     &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp CARET         &trans  &kp DOUBLE_QUOTES     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp PLUS   &kp ASTERISK
-&trans  &kp AT_SIGN   &kp HASH      &kp DOLLAR     &kp PERCENT       &kp AMPERSAND     &trans  &kp SQT               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp MINUS  &kp SLASH
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL      &kp LEFT_SHIFT    &kp UNDERSCORE    &trans  &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE         &kp COMMA  &kp EQUAL
-&trans  &trans        &trans        &trans         &trans            &trans            &trans  &trans                &trans                &trans                 &trans           &trans
+&trans  &trans        &trans        &trans          &trans                &trans            &trans  &trans                &trans                &trans                 &trans           &trans     &trans
+&trans  &kp TILDE     &kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN      &kp CARET         &trans  &kp DOUBLE_QUOTES     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp PLUS   &kp ASTERISK
+&trans  &kp AT_SIGN   &kp HASH      &kp DOLLAR      &kp PERCENT           &kp AMPERSAND     &trans  &kp SQT               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp MINUS  &kp SLASH
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &mt LCTRL PIPE  &mt LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOT          &kp COMMA  &kp EQUAL
+&trans  &trans        &trans        &trans          &trans                &trans            &trans  &trans                &trans                &trans                 &trans           &trans
             >;
         };
 
