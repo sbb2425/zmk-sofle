@@ -87,11 +87,11 @@
 
         num {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans       &trans  &trans                 &trans        &trans        &trans        &trans     &trans
-&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &trans  &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PLUS   &kp ASTERISK
-&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &trans  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp SLASH
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp EQUAL
-&trans  &trans        &trans        &trans            &trans          &kp SPACE    &trans  &kp ENTER              &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans            &trans          &trans       &msc SCRL_UP     &trans                 &trans        &trans        &trans        &trans     &trans
+&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &msc SCRL_DOWN   &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PLUS   &kp ASTERISK
+&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp SLASH
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &mmv MOVE_RIGHT  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp EQUAL
+&trans  &trans        &trans        &trans            &trans          &kp SPACE    &trans           &kp ENTER              &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
