@@ -327,3 +327,5 @@ layers:
 combos:
 - p: [57, 59]
   k: {t: base, h: toggle}
+- p: [56, 60]
+  k: {t: base, h: toggle}
