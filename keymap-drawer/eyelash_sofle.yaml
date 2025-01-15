@@ -303,8 +303,8 @@ layers:
   - Z
   - X
   - C
-  - V
-  - B
+  - I
+  - M
   - $$mdi:arrow-right-bold$$
   - N
   - M
@@ -313,16 +313,16 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-command$$', type: held}
+  - $$mdi:apple-keyboard-shift$$
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RIGHT GUI
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: base, h: toggle}
 combos:
 - p: [57, 59]
