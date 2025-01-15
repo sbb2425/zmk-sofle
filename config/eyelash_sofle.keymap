@@ -54,6 +54,11 @@
             bindings = <&to 1>;
             key-positions = <57 59>;
         };
+
+        base-layer {
+            bindings = <&to 0>;
+            key-positions = <56 60>;
+        };
     };
 
     keymap {
