@@ -103,7 +103,7 @@ layers:
   - '5'
   - '6'
   - {t: '-', s: _}
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
