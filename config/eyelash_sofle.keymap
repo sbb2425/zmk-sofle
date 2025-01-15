@@ -47,19 +47,7 @@
         tap-ms = <30>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        nav_layer_toggle {
-            bindings = <&to 1>;
-            key-positions = <57 59>;
-        };
-
-        base-layer {
-            bindings = <&to 0>;
-            key-positions = <56 60>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -75,6 +63,7 @@
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
             display-name = "base";
+            label = "base";
         };
 
         nav {
@@ -86,8 +75,9 @@
 &kp C_MUTE  &trans        &trans          &trans          &trans           &trans       &trans           &trans         &trans      &trans        &trans     &trans
             >;
 
-            display-name = "base";
+            display-name = "nav";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+            label = "nav";
         };
 
         num {
@@ -100,6 +90,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            label = "num";
         };
 
         sym {
@@ -110,9 +101,11 @@
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &mt LCTRL PIPE  &mt LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOT          &kp COMMA  &kp EQUAL
 &trans  &trans        &trans        &trans          &trans                &trans            &trans  &trans                &trans                &trans                 &trans           &trans
             >;
+
+            label = "sym";
         };
 
-        bluetooth {
+        func {
             bindings = <
 &trans          &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &out OUT_BLE    &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -122,6 +115,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
+            label = "func";
         };
 
         game {
@@ -137,17 +131,18 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP K_VOLUME_DOWN>;
         };
 
-        game-num {
+        game2 {
             display-name = "game";
             bindings = <
-&kp ESC     &kp N1          &kp N2        &kp N3        &kp N4            &kp N5          &kp UP_ARROW     &kp N6     &kp N7     &kp N8         &kp N9   &kp N0     &kp BACKSPACE
-&kp F5      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5    &kp DOWN_ARROW   &kp Y      &kp U      &kp I          &kp O    &kp P      &kp NON_US_BACKSLASH
-&kp LCTRL   &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0    &kp LEFT_ARROW   &kp H      &kp J      &kp K          &kp L    &kp SEMI   &kp ENTER
-&kp LSHFT   &kp Z           &kp X         &kp C         &kp I             &kp M           &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA      &kp DOT  &kp SLASH  &kp SQT
-&kp C_MUTE  &kp LEFT_SHIFT  &trans        &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE       &kp ENTER        &kp SPACE  &kp ENTER  &kp RIGHT_GUI  &trans   &tog 0
+&kp ESC     &kp N1        &kp N2        &kp N3        &kp N4            &kp N5          &kp UP_ARROW     &kp N6     &kp N7     &kp N8         &kp N9   &kp N0     &kp BACKSPACE
+&kp F5      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5    &kp DOWN_ARROW   &kp Y      &kp U      &kp I          &kp O    &kp P      &kp NON_US_BACKSLASH
+&kp LCTRL   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0    &kp LEFT_ARROW   &kp H      &kp J      &kp K          &kp L    &kp SEMI   &kp ENTER
+&kp LSHFT   &kp Z         &kp X         &kp C         &kp I             &kp M           &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA      &kp DOT  &kp SLASH  &kp SQT
+&kp C_MUTE  &kp LEFT_GUI  &trans        &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE       &kp ENTER        &kp SPACE  &kp ENTER  &kp RIGHT_GUI  &trans   &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+            label = "game2";
         };
     };
 };
