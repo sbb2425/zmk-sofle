@@ -325,7 +325,7 @@ layers:
   - {type: held}
   - {t: game, h: toggle}
   game:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
