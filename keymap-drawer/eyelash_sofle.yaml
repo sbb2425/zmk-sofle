@@ -285,7 +285,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - OUT USB
   - RGB ON
   - RGB BRI
@@ -298,8 +298,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB BRD
   - RGB SPD
@@ -379,10 +379,10 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - game2
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
+  - game2
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -404,11 +404,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - F5
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - '6'
+  - '7'
+  - {t: '8', s: '*'}
+  - '9'
+  - '0'
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -416,12 +416,12 @@ layers:
   - O
   - P
   - \
-  - $$mdi:apple-keyboard-control$$
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: '`', s: '~'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
   - $$mdi:arrow-left-bold$$
   - H
   - J
@@ -432,8 +432,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - C
   - I
+  - N
   - M
   - $$mdi:arrow-right-bold$$
   - N
@@ -444,10 +444,10 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
+  - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
