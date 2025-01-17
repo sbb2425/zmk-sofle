@@ -38,7 +38,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
@@ -51,7 +51,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: RIGHT GUI, s: '?'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -363,7 +363,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -376,7 +376,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -428,7 +428,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -441,7 +441,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
