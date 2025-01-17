@@ -241,7 +241,7 @@ layers:
   - {t: ':', h: '$$mdi:apple-keyboard-shift$$'}
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - \
+  - {t: \, s: '|'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: ., s: '>'}
