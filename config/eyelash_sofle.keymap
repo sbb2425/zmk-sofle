@@ -71,7 +71,7 @@
 &trans      &trans        &trans          &trans          &trans           &trans       &msc SCRL_UP     &trans         &trans      &trans        &trans     &trans            &kp DELETE
 &trans      &kp TILDE     &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &mkp MCLK    &msc SCRL_DOWN   &kp HOME       &kp PG_DN   &kp PG_DN     &kp END    &kp MINUS         &kp EQUAL
 &kp ESCAPE  &kp GRAVE     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4     &msc SCRL_LEFT   &kp LEFT       &kp DOWN    &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LEFT_GUI  &kp LEFT_ALT    &kp LCTRL       &kp LEFT_SHIFT   &mkp MB5     &msc SCRL_RIGHT  &kp BACKSPACE  &kp DELETE  &trans        &trans     &trans            &trans
+&trans      &kp LEFT_GUI  &kp LEFT_ALT    &kp LCTRL       &kp LEFT_SHIFT   &mkp MB5     &msc SCRL_RIGHT  &kp BACKSPACE  &kp DELETE  &mkp LCLK     &mkp RCLK  &trans            &trans
 &kp C_MUTE  &trans        &trans          &trans          &trans           &trans       &trans           &trans         &trans      &trans        &trans     &trans
             >;
 
