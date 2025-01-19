@@ -86,8 +86,8 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-down$$
   - HOME
-  - PG DN
-  - PG DN
+  - PgDn
+  - PgUp
   - END
   - {t: '-', s: _}
   - {t: '=', s: +}
