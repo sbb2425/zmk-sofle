@@ -386,7 +386,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - RIGHT GUI
+  - $$mdi:keyboard-space$$
   - game2
   - {t: '$$mdi:transfer$$', type: trans}
   game2:
