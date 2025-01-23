@@ -404,10 +404,10 @@ layers:
   - '5'
   - {t: '$$mdi:backspace$$', type: backspace}
   - F5
-  - '4'
-  - '5'
   - '6'
-  - U
+  - '7'
+  - '8'
+  - '9'
   - '0'
   - $$mdi:arrow-down-bold$$
   - Y
@@ -420,8 +420,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - I
-  - K
+  - '4'
+  - '5'
   - $$mdi:arrow-left-bold$$
   - H
   - J
@@ -430,9 +430,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - '7'
-  - {t: '8', s: '*'}
-  - '9'
+  - P
+  - U
+  - I
   - N
   - M
   - $$mdi:arrow-right-bold$$
