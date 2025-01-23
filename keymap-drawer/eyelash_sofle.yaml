@@ -180,7 +180,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ',', s: <}
+  - KP COMMA
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -379,10 +379,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - game2
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  - game2
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -397,17 +397,17 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: '$$mdi:backspace$$', type: backspace}
   - F5
+  - '4'
+  - '5'
   - '6'
-  - '7'
-  - {t: '8', s: '*'}
-  - '9'
+  - U
   - '0'
   - $$mdi:arrow-down-bold$$
   - Y
@@ -420,8 +420,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '4'
-  - {t: '5', s: '%'}
+  - I
+  - K
   - $$mdi:arrow-left-bold$$
   - H
   - J
@@ -430,9 +430,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - I
+  - '7'
+  - {t: '8', s: '*'}
+  - '9'
   - N
   - M
   - $$mdi:arrow-right-bold$$
@@ -444,10 +444,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - {type: held}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  - {type: held}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
