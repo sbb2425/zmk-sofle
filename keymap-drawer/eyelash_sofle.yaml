@@ -154,8 +154,8 @@ layers:
   - '7'
   - {t: '8', s: '*'}
   - '9'
-  - KP PLUS
-  - KP ASTERISK
+  - +
+  - '*'
   - F7
   - F8
   - F9
@@ -167,8 +167,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - KP MINUS
-  - KP SLASH
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -180,8 +180,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - KP DOT
-  - KP EQUAL
+  - {t: ',', s: <}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
