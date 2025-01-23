@@ -350,7 +350,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
