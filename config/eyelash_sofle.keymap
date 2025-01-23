@@ -83,9 +83,9 @@
         num {
             bindings = <
 &trans  &trans        &trans        &trans            &trans          &trans       &msc SCRL_UP     &trans                 &trans        &trans        &trans        &trans        &trans
-&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &msc SCRL_DOWN   &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PLUS      &kp ASTERISK
-&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &kp SLASH
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &mmv MOVE_RIGHT  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_COMMA  &kp EQUAL
+&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &msc SCRL_DOWN   &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp KP_PLUS   &kp KP_ASTERISK
+&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &kp KP_SLASH
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &mmv MOVE_RIGHT  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT    &kp KP_EQUAL
 &trans  &trans        &trans        &trans            &trans          &kp SPACE    &trans           &kp SPACE              &kp ENTER     &trans        &trans        &trans
             >;
 
@@ -121,11 +121,11 @@
         game {
             display-name = "game";
             bindings = <
-&kp GRAVE   &kp N1            &kp N2     &kp N3     &kp N4  &kp N5          &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp ESCAPE
-&kp TAB     &kp Q             &kp W      &kp E      &kp R   &kp T           &mmv MOVE_DOWN   &kp Y         &kp U         &kp I         &kp O         &kp P         &kp BACKSLASH
-&kp LCTRL   &kp A             &kp S      &kp D      &kp F   &kp G           &mmv MOVE_LEFT   &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
-&kp LSHFT   &kp Z             &kp X      &kp C      &kp V   &kp B           &mmv MOVE_RIGHT  &kp N         &kp M         &kp COMMA     &kp DOT       &kp SLASH     &kp ENTER
-&kp C_MUTE  &kp LEFT_CONTROL  &kp SPACE  &kp SPACE  &mo 6   &kp LEFT_ALT    &kp ENTER        &mkp LCLK     &mkp RCLK     &kp SPACE     &mo 6         &trans
+&kp GRAVE   &kp N1        &kp N2     &kp N3     &kp N4  &kp N5              &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp ESCAPE
+&kp TAB     &kp Q         &kp W      &kp E      &kp R   &kp T               &mmv MOVE_DOWN   &kp Y         &kp U         &kp I         &kp O         &kp P         &kp BACKSLASH
+&kp LCTRL   &kp A         &kp S      &kp D      &kp F   &kp G               &mmv MOVE_LEFT   &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
+&kp LSHFT   &kp Z         &kp X      &kp C      &kp V   &kp B               &mmv MOVE_RIGHT  &kp N         &kp M         &kp COMMA     &kp DOT       &kp SLASH     &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT  &kp SPACE  &kp SPACE  &mo 6   &kp LEFT_CONTROL    &kp ENTER        &mkp LCLK     &mkp RCLK     &kp SPACE     &mo 6         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
