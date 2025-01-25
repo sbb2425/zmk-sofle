@@ -55,12 +55,14 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-            rot_kp: sensor_rotate_kp {
+
+        rot_kp: sensor_rotate_kp {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
         };
-            rot_msc: sensor_rotate_msc {
+
+        rot_msc: sensor_rotate_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
@@ -97,7 +99,7 @@
 &trans            &kp LCTRL       &kp LEFT_GUI    &mo 2        &kp LEFT_ALT      &hm 1 SPACE    &kp ENTER        &hm 1 SPACE  &kp ENTER          &mo 3            &mo 4              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
             display-name = "base";
             label = "base";
         };
@@ -139,6 +141,7 @@
             >;
 
             label = "sym";
+            sensor-bindings = <&rot_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
         func {
