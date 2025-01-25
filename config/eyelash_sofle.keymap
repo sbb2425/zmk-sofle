@@ -99,7 +99,7 @@
 &trans            &kp LCTRL       &kp LEFT_GUI    &mo 2        &kp LEFT_ALT      &hm 1 SPACE    &kp ENTER        &hm 1 SPACE  &kp ENTER          &mo 3            &mo 4              &trans
             >;
 
-            sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
             display-name = "base";
             label = "base";
         };
