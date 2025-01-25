@@ -38,7 +38,7 @@
             delay-ms = <0>;                   //   10
         };
 
-        hm: homerow_mods {
+        hm: holdmo_presskp {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <500>;
@@ -47,7 +47,7 @@
             bindings = <&mo>, <&kp>;
         };
 
-        hk: homerow_mods {
+        hk: holdkp_presskp {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
