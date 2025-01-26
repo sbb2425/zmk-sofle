@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: infely                             # new entry
+      url-base: https://github.com/infely      # new entry
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -20,5 +22,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-  self:
+    - name: nice-view-battery                  # new entry
+      remote: infely                           # new entry
+      revision: main                           # new entry
+    self:
     path: config
