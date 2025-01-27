@@ -21,9 +21,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.yml
     - name: nice-view-battery                  # new entry
       remote: infely                           # new entry
       revision: main                           # new entry
+      import: app/west.yml
     self:
     path: config
