@@ -192,8 +192,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
+  - {t: ',', s: <}
   - KP COMMA
-  - KP DOT
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
