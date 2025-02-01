@@ -173,11 +173,11 @@
         g2 {
             display-name = "g2";
             bindings = <
-&kp ESC     &kp F1        &kp F2            &kp F3        &kp F4        &kp F5          &kp UP_ARROW     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5  &kp BACKSPACE
-&kp F5      &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp DOWN_ARROW   &kp Y         &kp U         &kp I          &kp O         &kp P         &kp NON_US_BACKSLASH
-&kp GRAVE   &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LEFT_ARROW   &kp H         &kp J         &kp K          &kp L         &kp SEMI      &kp SQT
-&kp LSHFT   &kp P         &kp U             &kp I         &kp N         &kp M           &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA      &kp DOT       &kp SLASH     &kp ENTER
-&kp C_MUTE  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp SPACE     &trans        &kp LEFT_ALT    &kp ENTER        &kp SPACE     &kp ENTER     &kp RIGHT_GUI  &trans        &to 0
+&kp ESC       &kp F1        &kp F2            &kp F3        &kp F4        &kp F5          &kp UP_ARROW     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5  &kp BACKSPACE
+&kp F5        &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp DOWN_ARROW   &kp Y         &kp U         &kp I          &kp O         &kp P         &kp NON_US_BACKSLASH
+&kp CAPSLOCK  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LEFT_ARROW   &kp H         &kp J         &kp K          &kp L         &kp SEMI      &kp SQT
+&kp LSHFT     &kp P         &kp U             &kp I         &kp N         &kp M           &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA      &kp DOT       &kp SLASH     &kp ENTER
+&kp C_MUTE    &kp LEFT_GUI  &kp LEFT_CONTROL  &kp SPACE     &trans        &kp LEFT_ALT    &kp ENTER        &kp SPACE     &kp ENTER     &kp RIGHT_GUI  &trans        &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
