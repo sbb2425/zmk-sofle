@@ -416,7 +416,7 @@ layers:
   - O
   - P
   - \
-  - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-caps$$
   - '1'
   - '2'
   - '3'
