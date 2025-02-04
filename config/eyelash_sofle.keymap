@@ -92,14 +92,14 @@
 
         base {
             bindings = <
-&kp ESC           &kp N1          &kp N2          &kp N3       &kp N4            &kp N5         &kp UP_ARROW     &kp N6       &kp N7             &kp N8           &kp N9             &kp N0              &kp DEL
-&kp TAB           &kp Q           &kp W           &kp E        &kp R             &kp T          &kp DOWN_ARROW   &kp Y        &kp U              &kp I            &kp O              &kp P               &kp BACKSPACE
-&mt LCTRL ESCAPE  &kp A           &kp S           &kp D        &kp F             &kp G          &kp LEFT_ARROW   &kp H        &kp J              &kp K            &kp L              &kp SEMI            &kp ENTER
-&kp LSHFT         &hk LEFT_GUI Z  &hk LEFT_ALT X  &hk LCTRL C  &hk LEFT_SHIFT V  &kp B          &kp RIGHT_ARROW  &kp N        &hk RIGHT_SHIFT M  &hk RCTRL COMMA  &hk RIGHT_ALT DOT  &hk RIGHT_GUI FSLH  &kp BACKSLASH
-&trans            &kp LCTRL       &kp LEFT_GUI    &mo 2        &kp LEFT_ALT      &hm 1 SPACE    &kp ENTER        &hm 1 SPACE  &kp ENTER          &mo 3            &mo 4              &trans
+&kp ESC           &kp N1          &kp N2          &kp N3        &kp N4            &kp N5         &kp UP_ARROW     &kp N6       &kp N7             &kp N8           &kp N9             &kp N0              &kp DEL
+&kp TAB           &kp Q           &kp W           &kp E         &kp R             &kp T          &kp DOWN_ARROW   &kp Y        &kp U              &kp I            &kp O              &kp P               &kp BACKSPACE
+&mt LCTRL ESCAPE  &kp A           &kp S           &kp D         &kp F             &kp G          &kp LEFT_ARROW   &kp H        &kp J              &kp K            &kp L              &kp SEMI            &kp ENTER
+&kp LSHFT         &hk LEFT_GUI Z  &hk LEFT_ALT X  &hk LCTRL C   &hk LEFT_SHIFT V  &kp B          &kp RIGHT_ARROW  &kp N        &hk RIGHT_SHIFT M  &hk RCTRL COMMA  &hk RIGHT_ALT DOT  &hk RIGHT_GUI FSLH  &kp BACKSLASH
+&kp C_MUTE        &kp LCTRL       &kp LEFT_GUI    &kp LEFT_ALT  &mo 2             &hm 1 SPACE    &kp ENTER        &hm 1 SPACE  &mo 3              &kp ENTER        &mo 4              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             display-name = "base";
             label = "base";
         };
