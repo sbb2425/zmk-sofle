@@ -134,9 +134,9 @@
         sym {
             bindings = <
 &none  &none                     &none                  &none           &none                 &none             &none  &none              &none                 &none                  &none            &none      &none
-&none  &kp TILDE                 &kp GRAVE              &kp LESS_THAN   &kp GREATER_THAN      &kp CARET         &none  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp PLUS   &kp ASTERISK
-&none  &kp AT_SIGN               &kp HASH               &kp DOLLAR      &kp PERCENT           &kp AMPERSAND     &none  &kp SQT            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp MINUS  &kp SLASH
-&none  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LCTRL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOT          &kp EQUAL  &none
+&none  &kp GRAVE                 &kp TILDE              &kp LESS_THAN   &kp GREATER_THAN      &kp CARET         &none  &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PLUS   &kp ASTERISK
+&none  &kp AT_SIGN               &kp HASH               &kp DOLLAR      &kp PERCENT           &kp AMPERSAND     &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp MINUS  &kp SLASH
+&none  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LCTRL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp BACKSLASH      &kp LEFT_BRACE        &kp RIGHT_BRACKET      &kp DOT          &kp EQUAL  &none
 &none  &none                     &none                  &none           &none                 &none             &none  &none              &none                 &none                  &none            &none
             >;
 
