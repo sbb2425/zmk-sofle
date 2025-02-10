@@ -106,15 +106,15 @@
 
         nav {
             bindings = <
-&none       &none         &none           &none           &none            &none        &msc SCRL_UP     &none      &none          &none         &none      &none     &kp DELETE
-&none       &kp TILDE     &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &mkp MCLK    &msc SCRL_DOWN   &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &none     &kp DELETE
-&kp ESCAPE  &kp GRAVE     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4     &msc SCRL_LEFT   &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none     &kp ENTER
-&caps_word  &kp LEFT_GUI  &kp LEFT_ALT    &kp LCTRL       &kp LEFT_SHIFT   &mkp MB5     &msc SCRL_RIGHT  &mkp LCLK  &mkp MCLK      &mkp RCLK     &mkp MB4   &mkp MB5  &none
-&kp C_MUTE  &none         &none           &none           &none            &none        &none            &none      &none          &none         &none      &none
+&none                  &none         &none           &none           &none            &none        &msc SCRL_UP     &none      &none          &none         &none      &none     &kp DELETE
+&none                  &kp TILDE     &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &mkp MCLK    &msc SCRL_DOWN   &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &none     &kp DELETE
+&kp ESCAPE             &kp GRAVE     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4     &msc SCRL_LEFT   &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none     &kp ENTER
+&caps_word             &kp LEFT_GUI  &kp LEFT_ALT    &kp LCTRL       &kp LEFT_SHIFT   &mkp MB5     &msc SCRL_RIGHT  &mkp LCLK  &mkp MCLK      &mkp RCLK     &mkp MB4   &mkp MB5  &none
+&kp C_BRIGHTNESS_AUTO  &none         &none           &none           &none            &none        &none            &none      &none          &none         &none      &none
             >;
 
             display-name = "nav";
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
             label = "nav";
         };
 
@@ -127,17 +127,17 @@
 &none   &none         &none         &none             &none           &kp SPACE    &none            &kp SPACE              &kp ENTER     &kp NUMBER_0  &kp COMMA     &kp KP_COMMA
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
             label = "num";
         };
 
         sym {
             bindings = <
-&none  &none                     &none                  &none           &none                 &none             &none  &none              &none                 &none                  &none            &none      &none
-&none  &kp GRAVE                 &kp TILDE              &kp LESS_THAN   &kp GREATER_THAN      &kp CARET         &none  &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PLUS   &kp ASTERISK
-&none  &kp AT_SIGN               &kp HASH               &kp DOLLAR      &kp PERCENT           &kp AMPERSAND     &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp MINUS  &kp SLASH
-&none  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LCTRL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp BACKSLASH      &kp LEFT_BRACE        &kp RIGHT_BRACKET      &kp DOT          &kp EQUAL  &none
-&none  &none                     &none                  &none           &none                 &none             &none  &none              &none                 &none                  &none            &none
+&none  &none                     &none                  &none           &none                 &none             &none  &none              &none                       &none                          &none          &none                &none
+&none  &kp GRAVE                 &kp TILDE              &kp LESS_THAN   &kp GREATER_THAN      &kp CARET         &none  &kp SQT            &kp LEFT_BRACKET            &kp RIGHT_BRACKET              &none          &kp PLUS             &kp ASTERISK
+&none  &kp AT_SIGN               &kp HASH               &kp DOLLAR      &kp PERCENT           &kp AMPERSAND     &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS          &none          &kp MINUS            &kp SLASH
+&none  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LCTRL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp BACKSLASH      &hk RIGHT_SHIFT LEFT_BRACE  &hk RIGHT_CONTROL RIGHT_BRACE  &kp RIGHT_ALT  &hk RIGHT_GUI EQUAL  &none
+&none  &none                     &none                  &none           &none                 &none             &none  &none              &none                       &none                          &none          &none
             >;
 
             label = "sym";
