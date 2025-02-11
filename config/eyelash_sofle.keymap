@@ -129,7 +129,7 @@
             >;
 
             label = "sym";
-            sensor-bindings = <&rot_msc SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         func {
