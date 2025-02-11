@@ -218,11 +218,11 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mail1  &mail2  &mail3  &mail4  &mail5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mail6  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none    &none  &none   &none   &none   &none   &none   &none
+&none  &none  &none  &none  &none  &none    &none  &mail1  &mail2  &mail3  &mail4  &mail5  &none
+&none  &none  &none  &none  &none  &none    &none  &mail6  &none   &none   &none   &none   &none
+&none  &none  &none  &none  &none  &none    &none  &none   &none   &none   &none   &none   &none
+&none  &none  &none  &none  &none  &none    &none  &none   &none   &none   &none   &none
             >;
 
             label = "macros";
