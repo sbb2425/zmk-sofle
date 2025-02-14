@@ -205,7 +205,7 @@
         g2 {
             display-name = "g2";
             bindings = <
-&kp ESC     &kp F1        &kp F2            &kp F3        &kp F4        &kp F5          &kp UP_ARROW     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5  &kp BACKSPACE
+&kp ESC     &kp F1        &kp F2            &kp F3        &kp F4        &kp F5          &kp UP_ARROW     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
 &kp GRAVE   &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp DOWN_ARROW   &kp Y         &kp U         &kp I          &kp O         &kp P         &kp NON_US_BACKSLASH
 &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LEFT_ARROW   &kp H         &kp J         &kp K          &kp L         &kp SEMI      &kp SQT
 &trans      &kp P         &kp U             &kp I         &kp N         &kp M           &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA      &kp DOT       &kp SLASH     &kp ENTER
