@@ -578,7 +578,7 @@ layers:
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: '-', s: _}
   - {t: '=', s: +}
