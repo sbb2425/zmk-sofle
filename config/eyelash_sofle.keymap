@@ -261,6 +261,8 @@
 &kp LEFT_SHIFT    &kp Z         &kp X             &kp C              &kp V         &kp B           &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp BACKSLASH
 &none             &kp LEFT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_GUI  &kp SPACE       &none            &kp SPACE     &kp MINUS     &kp EQUAL     &trans        &to 0
             >;
+
+            label = "gimp";
         };
     };
 };
