@@ -452,7 +452,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RIGHT GUI
-  - {type: held alternate}
+  - {type: held}
   - {t: base, h: toggle}
   macros:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
