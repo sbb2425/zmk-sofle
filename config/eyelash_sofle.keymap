@@ -5,8 +5,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -153,8 +151,8 @@
         num {
             bindings = <
 &none   &none         &none         &none             &none           &none        &msc SCRL_UP     &none                  &none         &none         &none         &none      &none
-&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &msc SCRL_DOWN   &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PLUS   &kp ASTERISK
-&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp SLASH
+&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &msc SCRL_DOWN   &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PLUS   &kp ASTERISK
+&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp SLASH
 &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none        &mmv MOVE_RIGHT  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp ENTER
 &none   &none         &none         &none             &none           &kp SPACE    &none            &kp SPACE              &none         &kp NUMBER_0  &kp COMMA     &kp DOT
             >;
