@@ -107,7 +107,7 @@
 &trans  &kp GRAVE                 &kp TILDE              &kp LESS_THAN          &kp GREATER_THAN      &kp CARET         &trans  &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &kp PLUS   &kp ASTERISK
 &trans  &kp AT                    &kp HASH               &kp DOLLAR             &kp PERCENT           &kp PERCENT       &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &kp MINUS  &kp FSLH
 &trans  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LEFT_CONTROL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp PERIOD         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &kp COMMA  &kp EQUAL
-&trans  &trans                    &trans                 &trans                 &trans                &trans            &trans  &trans             &trans                &trans                 &trans  &trans
+&trans  &trans                    &trans                 &mo 9                  &trans                &trans            &trans  &trans             &trans                &mo 9                  &trans  &trans
             >;
 
             label = "sym";
@@ -176,11 +176,11 @@
 
         func {
             bindings = <
-&trans        &trans           &trans           &trans           &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&out OUT_BLE  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
-&out OUT_USB  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans           &trans           &trans           &trans        &trans          &trans  &to 0   &to 4   &to 7   &trans  &trans  &trans
-&trans        &trans           &trans           &trans           &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none            &none            &none            &none         &none           &none  &none  &none  &none  &none  &none  &none
+&out OUT_BLE  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none  &none  &bt BT_CLR
+&out OUT_USB  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none         &none           &none  &none  &none  &none  &none  &none  &none
+&none         &none            &none            &none            &none         &none           &none  &to 0  &to 4  &to 7  &none  &none  &none
+&none         &none            &none            &none            &none         &none           &none  &none  &none  &none  &none  &none
             >;
 
             label = "func";
