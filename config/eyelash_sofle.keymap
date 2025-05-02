@@ -74,11 +74,11 @@
 
         nav {
             bindings = <
-&none                  &none         &none           &none             &none            &none       &mmv MOVE_UP     &none           &none           &none         &none      &none     &none
-&none                  &none         &mkp RCLK       &mmv MOVE_UP      &mkp LCLK        &mkp MB3    &mmv MOVE_DOWN   &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none     &kp DELETE
-&none                  &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none     &none
-&none                  &kp LEFT_GUI  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT   &mkp MB5    &mmv MOVE_RIGHT  &mkp MB4        &mkp MB1        &mkp MB3      &mkp MB2   &mkp MB5  &none
-&kp C_BRIGHTNESS_AUTO  &none         &none           &none             &none            &none       &mkp LCLK        &none           &none           &none         &none      &none
+&none                  &none         &none           &none             &none            &none       &msc SCRL_UP     &none           &none           &none         &none      &none     &none
+&none                  &none         &mkp RCLK       &mmv MOVE_UP      &mkp LCLK        &mkp MB3    &msc SCRL_DOWN   &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none     &kp DELETE
+&none                  &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &mkp MB4    &msc SCRL_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none     &none
+&none                  &kp LEFT_GUI  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT   &mkp MB5    &msc SCRL_RIGHT  &mkp MB4        &mkp MB1        &mkp MB3      &mkp MB2   &mkp MB5  &none
+&kp C_BRIGHTNESS_AUTO  &none         &none           &none             &none            &none       &mkp RCLK        &none           &none           &none         &none      &none
             >;
 
             display-name = "layer1";
@@ -88,17 +88,17 @@
 
         num {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans     &trans  &trans  &trans        &trans        &trans        &trans     &trans
-&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12    &trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &kp ASTERISK
-&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6     &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp FSLH
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans     &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
-&trans  &trans        &trans        &trans            &trans          &trans     &trans  &trans  &trans        &kp NUMBER_0  &kp PERIOD    &kp DOT
+&none   &none         &none         &none             &none           &none      &none  &none  &none         &none         &none         &none      &none
+&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12    &none  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &kp ASTERISK
+&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6     &none  &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp FSLH
+&none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none      &none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none
+&none   &none         &none         &none             &none           &none      &none  &none  &none         &kp NUMBER_0  &kp PERIOD    &kp DOT
             >;
 
             label = "num";
         };
 
-        layer_3 {
+        sym {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -106,6 +106,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "sym";
         };
     };
 };
