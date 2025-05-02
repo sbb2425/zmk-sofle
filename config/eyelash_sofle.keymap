@@ -71,7 +71,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "base";
             label = "base";
         };
 
@@ -84,7 +84,7 @@
 &kp C_BRIGHTNESS_AUTO  &none         &none           &none             &none            &none       &mkp RCLK        &none           &none           &none             &none       &none
             >;
 
-            display-name = "layer1";
+            display-name = "nav";
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
             label = "nav";
         };
@@ -98,6 +98,7 @@
 &none   &none         &none         &none             &none           &none      &none  &none    &none         &kp NUMBER_0  &none         &none
             >;
 
+            display-name = "num";
             label = "num";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -111,6 +112,7 @@
 &trans  &trans                    &trans                 &mo 9                  &trans                &trans            &trans  &trans             &trans                      &mo 9                          &trans         &trans
             >;
 
+            display-name = "sym";
             label = "sym";
         };
 
@@ -123,6 +125,7 @@
 &kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE     &mo 5           &mkp RCLK        &mkp LCLK         &kp SPACE         &mo 6             &none             &none
             >;
 
+            display-name = "game";
             label = "game";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
@@ -136,6 +139,8 @@
 &none      &none         &none         &none         &none  &none    &none  &none  &none  &none  &none  &none
             >;
 
+
+            display-name = "game2";
             label = "game2";
         };
 
@@ -148,6 +153,7 @@
 &none       &none  &none  &mo 9  &none  &none           &none  &none           &none           &none         &none            &none
             >;
 
+            display-name = "game3";
             label = "game3";
         };
 
@@ -160,6 +166,7 @@
 &none  &none  &none  &mo 8  &none  &none    &none  &none  &none  &mo 8  &none  &none
             >;
 
+            display-name = "graph";
             label = "graph";
         };
 
@@ -172,6 +179,7 @@
 &none  &none  &none  &mo 9  &none  &none    &none  &none  &none  &mo 9  &none  &none
             >;
 
+            display-name = "graph2";
             label = "graph2";
         };
 
@@ -184,6 +192,7 @@
 &none         &none            &none            &none            &none         &none           &none  &none  &none  &none  &none  &none
             >;
 
+            display-name = "func";
             label = "func";
         };
     };
