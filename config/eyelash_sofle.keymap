@@ -120,7 +120,7 @@
             bindings = <
 &none             &none  &none  &none         &none         &none           &mmv MOVE_UP     &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6
 &kp TAB           &kp Q  &kp W  &kp E         &kp NUMBER_1  &kp NUMBER_4    &mmv MOVE_DOWN   &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)  &kp LC(NUMBER_6)
-&kp LEFT_CONTROL  &kp A  &kp S  &kp F         &kp NUMBER_2  &kp NUMBER_5    &mmv MOVE_LEFT   &kp H             &kp J             &kp K             &kp L             &kp SEMICOLON     &kp ENTER
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp NUMBER_2  &kp NUMBER_5    &mmv MOVE_LEFT   &kp H             &kp J             &kp K             &kp L             &kp SEMICOLON     &kp ENTER
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp V         &kp NUMBER_3  &kp NUMBER_6    &mmv MOVE_RIGHT  &kp N             &kp M             &kp COMMA         &kp PERIOD        &kp FSLH          &kp ESCAPE
 &kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE     &mo 5           &mkp RCLK        &mkp LCLK         &kp SPACE         &mo 6             &none             &none
             >;
@@ -138,7 +138,6 @@
 &mo 6      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp V  &kp B    &none  &none  &none  &none  &none  &none  &none
 &none      &none         &none         &none         &none  &none    &none  &none  &none  &none  &none  &none
             >;
-
 
             display-name = "game2";
             label = "game2";
