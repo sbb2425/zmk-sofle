@@ -303,7 +303,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - V
+  - C
   - '3'
   - '6'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
