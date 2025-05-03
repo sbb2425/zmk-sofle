@@ -290,7 +290,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - A
   - S
-  - F
+  - D
   - '2'
   - '5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
