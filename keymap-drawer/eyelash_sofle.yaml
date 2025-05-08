@@ -278,21 +278,21 @@ layers:
   - Q
   - W
   - E
-  - '1'
-  - '4'
+  - R
+  - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Ctl+1
-  - Ctl+2
-  - Ctl+3
-  - Ctl+4
-  - Ctl+5
-  - Ctl+6
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - V
   - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
-  - '2'
-  - '5'
+  - F
+  - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - H
   - J
@@ -304,8 +304,8 @@ layers:
   - Z
   - X
   - C
-  - '3'
-  - '6'
+  - V
+  - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -343,8 +343,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - R
-  - T
+  - '1'
+  - '4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -356,8 +356,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F
-  - G
+  - '2'
+  - '5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -369,8 +369,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - V
-  - B
+  - '3'
+  - '6'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
