@@ -281,12 +281,12 @@ layers:
   - R
   - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - F1
-  - F2
-  - F3
-  - F4
+  - Y
+  - U
+  - I
+  - O
+  - P
   - F5
-  - V
   - $$mdi:apple-keyboard-control$$
   - A
   - S
