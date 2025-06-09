@@ -281,8 +281,8 @@ layers:
   - R
   - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Y
-  - U
+  - T
+  - R
   - I
   - O
   - P
@@ -294,8 +294,8 @@ layers:
   - F
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - T
   - G
+  - F
   - K
   - L
   - {t: ;, s: ':'}
