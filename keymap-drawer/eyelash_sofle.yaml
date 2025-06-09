@@ -294,8 +294,8 @@ layers:
   - F
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - H
-  - J
+  - T
+  - G
   - K
   - L
   - {t: ;, s: ':'}
@@ -309,8 +309,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - V
   - B
-  - {t: ',', s: <}
-  - .
+  - X
+  - Q
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:volume-off$$
