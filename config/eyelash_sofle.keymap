@@ -149,7 +149,7 @@
             bindings = <
 &none       &none  &none  &none  &none  &none           &none  &none           &none           &none         &none            &none  &none
 &kp F5      &kp Y  &kp U  &kp I  &kp O  &kp P           &none  &none           &none           &none         &none            &none  &none
-&kp ESCAPE  &kp H  &kp J  &kp K  &none  &kp ENTER       &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
+&kp ESCAPE  &kp H  &kp J  &kp K  &kp L  &kp ENTER       &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
 &none       &kp N  &kp M  &none  &none  &kp NUMBER_0    &none  &none           &none           &none         &none            &none  &to 0
 &none       &none  &none  &mo 9  &none  &none           &none  &none           &none           &none         &none            &none
             >;
