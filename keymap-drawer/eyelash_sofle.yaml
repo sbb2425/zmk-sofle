@@ -273,7 +273,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '6'
+  - F5
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -281,12 +281,12 @@ layers:
   - R
   - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - T
-  - R
-  - I
-  - O
-  - P
-  - F5
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -295,8 +295,8 @@ layers:
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - G
-  - F
-  - K
+  - T
+  - R
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -311,7 +311,7 @@ layers:
   - B
   - X
   - Q
-  - {t: /, s: '?'}
+  - {t: '=', s: +}
   - $$mdi:keyboard-esc$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
