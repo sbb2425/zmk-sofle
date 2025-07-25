@@ -120,11 +120,11 @@
 
         game {
             bindings = <
-&none             &none  &none  &none         &none      &none    &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5   &kp F5
-&kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T    &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G    &mmv MOVE_LEFT   &kp G         &kp T         &kp R         &kp L         &kp SEMICOLON  &kp ENTER
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B    &mmv MOVE_RIGHT  &kp V         &kp B         &kp X         &kp Q         &kp EQUAL      &kp ESCAPE
-&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &mo 5    &mkp RCLK        &mkp LCLK     &kp SPACE     &mo 6         &none         &none
+&none             &none      &none  &none         &none      &none    &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp F5
+&kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T    &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
+&kp LEFT_CONTROL  &kp A      &kp S  &kp D         &kp F      &kp G    &mmv MOVE_LEFT   &kp G         &kp T         &kp R         &kp DOWN      &kp UP        &kp ENTER
+&kp LEFT_SHIFT    &kp Z      &kp X  &kp C         &kp V      &kp B    &mmv MOVE_RIGHT  &kp V         &kp B         &kp X         &kp Q         &kp EQUAL     &kp ESCAPE
+&kp C_MUTE        &kp EQUAL  &mo 6  &kp LEFT_ALT  &kp SPACE  &mo 5    &mkp RCLK        &mkp LCLK     &kp SPACE     &mo 6         &none         &none
             >;
 
             display-name = "game";
