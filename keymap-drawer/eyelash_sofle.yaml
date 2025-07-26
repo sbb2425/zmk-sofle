@@ -636,7 +636,7 @@ layers:
   - {t: game, h: toggle}
   - {t: graph, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&bl BL_TOG'
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
