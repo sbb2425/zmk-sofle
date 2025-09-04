@@ -51,7 +51,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <250>;
-        flavor = "tap-preferred";
+        flavor = "balanced";
         quick-tap-ms = <150>;
     };
 
@@ -62,8 +62,26 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        flavor = "tap-preferred";
+        flavor = "balanced";
         quick-tap-ms = <150>;
+    };
+
+    htls: htls {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HTLS";
+        bindings = <&mo>, <&sl>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+    };
+
+    htlg: htlg {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HTLG";
+        bindings = <&mo>, <&tog>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
     };
 
     behaviors {
