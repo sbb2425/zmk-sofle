@@ -383,7 +383,7 @@ layers:
   - game3
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - game2
+  - {t: game2, h: game2}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
