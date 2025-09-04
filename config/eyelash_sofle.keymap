@@ -150,7 +150,7 @@
 &trans  &kp GRAVE                 &kp TILDE              &kp LESS_THAN          &kp GREATER_THAN      &kp CARET         &trans  &kp SQT            &kp LEFT_BRACKET            &kp RIGHT_BRACKET              &trans         &kp PLUS             &kp ASTERISK
 &trans  &kp AT                    &kp HASH               &kp DOLLAR             &kp PERCENT           &kp AMPERSAND     &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS          &trans         &kp MINUS            &kp FSLH
 &trans  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LEFT_CONTROL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp PERIOD         &hk RIGHT_SHIFT LEFT_BRACE  &hk RIGHT_CONTROL RIGHT_BRACE  &kp RIGHT_ALT  &hk RIGHT_GUI COMMA  &kp EQUAL
-&trans  &trans                    &trans                 &mo 10                 &trans                &trans            &trans  &trans             &trans                      &mo 10                         &trans         &trans
+&trans  &trans                    &trans                 &htls 10 10            &trans                &trans            &trans  &trans             &trans                      &htls 10 10                    &trans         &trans
             >;
 
             display-name = "sym";
