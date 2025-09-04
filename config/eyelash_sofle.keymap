@@ -125,6 +125,7 @@
 
             display-name = "sym";
             label = "sym";
+            sensor-bindings = <&vertical_scroll_encoder>;
         };
 
         game {
@@ -207,4 +208,3 @@
         };
     };
 };
-
