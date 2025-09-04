@@ -278,21 +278,21 @@ layers:
   - Q
   - W
   - E
-  - '1'
-  - '2'
+  - R
+  - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '6'
   - '7'
   - '8'
   - '9'
-  - '0'
   - {t: '-', s: _}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
-  - '3'
-  - '4'
+  - F
+  - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - G
   - T
@@ -343,8 +343,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - R
-  - T
+  - '1'
+  - '2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -356,8 +356,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F
-  - G
+  - '3'
+  - '4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
