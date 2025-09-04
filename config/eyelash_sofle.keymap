@@ -94,11 +94,11 @@
 
         num {
             bindings = <
-&none   &none         &none         &none             &none           &none      &none  &none    &none         &none         &none         &none      &none
-&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12    &none  &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &kp ASTERISK
-&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6     &none  &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp FSLH
-&none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none      &none  &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp EQUAL
-&none   &none         &none         &none             &none           &none      &none  &none    &none         &kp NUMBER_0  &none         &none
+&none   &none         &none         &none             &none           &none      &none  &none      &none                     &none                       &none                   &none              &none
+&kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12    &none  &none      &kp NUMBER_7              &kp NUMBER_8                &kp NUMBER_9            &kp PLUS           &kp ASTERISK
+&kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6     &none  &none      &kp NUMBER_4              &kp NUMBER_5                &kp NUMBER_6            &kp MINUS          &kp FSLH
+&none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none      &none  &kp COMMA  &hk RIGHT_SHIFT NUMBER_1  &hk RIGHT_CONTROL NUMBER_2  &hk RIGHT_ALT NUMBER_3  &hk RIGHT_GUI DOT  &kp EQUAL
+&none   &none         &none         &none             &none           &none      &none  &none      &none                     &kp NUMBER_0                &none                   &none
             >;
 
             display-name = "num";
