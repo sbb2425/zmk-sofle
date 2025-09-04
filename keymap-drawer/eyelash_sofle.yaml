@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - sym
-  - num
+  - {t: sym, h: sym}
+  - {t: num, h: num}
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - '&mkp MB1'
   - {t: '$$mdi:keyboard-space$$', h: nav}
-  - {t: num, h: toggle}
-  - {t: sym, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: num, h: num}
+  - {t: sym, h: sym}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   nav:
@@ -216,7 +216,7 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '7'
   - '8'
   - '9'
@@ -255,8 +255,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: num, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: num, h: toggle, type: held alternate}
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
