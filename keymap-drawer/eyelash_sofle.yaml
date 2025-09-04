@@ -61,8 +61,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - '&mkp MB1'
   - {t: '$$mdi:keyboard-space$$', h: nav}
-  - num
-  - sym
+  - {t: num, h: toggle}
+  - {t: sym, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   nav:
@@ -256,7 +256,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: num, h: toggle}
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -343,8 +343,8 @@ layers:
   - Q
   - W
   - E
-  - R
-  - T
+  - '1'
+  - '2'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '6'
   - '7'
@@ -356,13 +356,13 @@ layers:
   - A
   - S
   - D
-  - F
-  - G
+  - '3'
+  - '4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - G
   - T
   - R
-  - {t: '=', s: +}
+  - E
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
@@ -408,8 +408,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '1'
-  - '2'
+  - R
+  - T
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -421,8 +421,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '3'
-  - '4'
+  - F
+  - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -430,7 +430,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - game3
+  - {t: game3, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '7'
   - '8'
@@ -517,7 +517,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: func, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   graph:
@@ -701,7 +701,7 @@ layers:
   - {t: game, h: toggle}
   - {t: graph, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&bl BL_TOG'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
