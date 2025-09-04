@@ -164,7 +164,7 @@
 &kp TAB           &kp Q      &kp W   &kp E         &kp NUMBER_1  &kp NUMBER_2     &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp EQUAL
 &kp LEFT_CONTROL  &kp A      &kp S   &kp D         &kp NUMBER_3  &kp NUMBER_4     &mmv MOVE_LEFT   &kp G         &kp T         &kp R         &kp E         &kp UP        &kp ENTER
 &kp LEFT_SHIFT    &kp Z      &kp X   &kp C         &kp V         &kp B            &mmv MOVE_RIGHT  &kp V         &kp B         &kp Z         &kp X         &kp DOWN      &kp ESCAPE
-&kp C_MUTE        &kp EQUAL  &mo 7   &kp LEFT_ALT  &kp SPACE     &mo 6            &mkp RCLK        &mkp LCLK     &kp SPACE     &mo 7         &none         &none
+&kp C_MUTE        &kp EQUAL  &mo 7   &kp LEFT_ALT  &kp SPACE     &htls 6 6        &mkp RCLK        &mkp LCLK     &kp SPACE     &mo 7         &none         &none
             >;
 
             display-name = "game";
