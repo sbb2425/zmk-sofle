@@ -177,11 +177,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ., s: '>'}
-  - '1'
-  - '2'
-  - '3'
   - {t: ',', s: <}
+  - {t: '1', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '2', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ., h: RIGHT GUI, s: '>'}
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
