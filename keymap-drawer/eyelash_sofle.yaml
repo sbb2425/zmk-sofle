@@ -105,7 +105,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: mouse, h: mouse}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -170,18 +170,18 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,7 +192,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: mouse, h: toggle, type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   num:
