@@ -183,11 +183,11 @@
             label = "race";
             display-name = "game";
             bindings = <
-&kp LEFT_ARROW    &kp DOWN   &kp UP  &kp RIGHT     &none         &kp BACKSPACE    &mmv MOVE_UP     &none          &none           &none           &none            &none          &none
-&kp TAB           &kp Q      &kp W   &kp E         &kp NUMBER_1  &kp NUMBER_2     &mmv MOVE_DOWN   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE  &kp F5
-&kp LEFT_CONTROL  &kp A      &kp S   &kp D         &kp NUMBER_3  &kp NUMBER_4     &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &kp ENTER
-&kp LEFT_SHIFT    &kp Z      &kp X   &kp C         &kp V         &kp B            &mmv MOVE_RIGHT  &none          &none           &none           &none            &none          &kp ESCAPE
-&kp C_MUTE        &kp EQUAL  &mo 8   &kp LEFT_ALT  &kp SPACE     &htls 7 7        &mkp RCLK        &mkp LCLK      &kp SPACE       &mo 8           &none            &none
+&kp LEFT_ARROW    &kp DOWN   &kp UP  &kp RIGHT     &none      &kp BACKSPACE    &mmv MOVE_UP     &none          &none           &none           &none            &none          &none
+&kp TAB           &kp Q      &kp W   &kp E         &kp R      &kp T            &mmv MOVE_DOWN   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE  &kp F5
+&kp LEFT_CONTROL  &kp A      &kp S   &kp D         &kp F      &kp G            &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &kp ENTER
+&kp LEFT_SHIFT    &kp Z      &kp X   &kp C         &kp V      &kp B            &mmv MOVE_RIGHT  &kp M          &kp H           &kp L           &none            &none          &kp ESCAPE
+&kp C_MUTE        &kp EQUAL  &mo 8   &kp LEFT_ALT  &kp SPACE  &htls 7 7        &mkp RCLK        &mkp LCLK      &kp SPACE       &mo 8           &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
