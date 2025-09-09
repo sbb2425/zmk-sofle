@@ -343,8 +343,8 @@ layers:
   - Q
   - W
   - E
-  - '1'
-  - '2'
+  - R
+  - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PgUp
   - HOME
@@ -356,8 +356,8 @@ layers:
   - A
   - S
   - D
-  - '3'
-  - '4'
+  - F
+  - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PgDn
   - $$mdi:arrow-left-bold$$
@@ -372,9 +372,9 @@ layers:
   - V
   - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - M
+  - H
+  - L
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
