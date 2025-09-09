@@ -333,6 +333,71 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - F5
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - '1'
+  - '2'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - D
+  - '3'
+  - '4'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - G
+  - T
+  - R
+  - E
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - V
+  - B
+  - Z
+  - X
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:keyboard-esc$$
+  - $$mdi:volume-off$$
+  - {t: '=', s: +}
+  - game3
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - {t: game2, h: game2}
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:keyboard-space$$
+  - game3
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  race:
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -765,7 +830,7 @@ layers:
   - {t: base, h: toggle}
   - {t: game, h: toggle}
   - {t: graph, h: toggle}
-  - {t: game, h: toggle}
+  - {t: race, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
