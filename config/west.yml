@@ -8,21 +8,16 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: infely                             # new entry
       url-base: https://github.com/infely      # new entry
-    # - name: kevinpastor
-    #   url-base: https://github.com/kevinpastor
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
+    - name: nice-view-battery                  # new entry
+      remote: infely                           # new entry
+      revision: main                           # new entry
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-battery                  # new entry
-      remote: infely                           # new entry
-      revision: main                           # new entry
-    # - name: nice-view-elemental
-    #   remote: kevinpastor
-    #   revision: main
   self:
     path: config
