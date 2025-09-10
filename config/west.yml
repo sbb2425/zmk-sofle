@@ -17,6 +17,9 @@ manifest:
     - name: nice-view-battery                  # new entry
       remote: infely                           # new entry
       revision: main                           # new entry
+    - name: nice-view-elemental
+      remote: kevinpastor
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
