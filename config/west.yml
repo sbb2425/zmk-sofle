@@ -8,8 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: infely                             # new entry
       url-base: https://github.com/infely      # new entry
-    - name: kevinpastor
-      url-base: https://github.com/kevinpastor
+    # - name: kevinpastor
+    #   url-base: https://github.com/kevinpastor
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
