@@ -10,11 +10,5 @@ include:
   - board: eyelash_sofle_right
     shield: nice_view_adapter nice_view_battery
     artifact-name: nice_view_battery_right
-  # - board: eyelash_sofle_left
-  #   shield: nice_view_adapter nice_view_elemental
-  #   artifact-name: nice_view_elemental_right
-  # - board: eyelash_sofle_right
-  #   shield: nice_view_adapter nice_view_elemental
-  #   artifact-name: nice_view_elemental_right
   - board: eyelash_sofle_left
     shield: settings_reset
