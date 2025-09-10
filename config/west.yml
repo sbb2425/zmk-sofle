@@ -14,15 +14,15 @@ manifest:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
-    - name: nice-view-battery                  # new entry
-      remote: infely                           # new entry
-      revision: main                           # new entry
     - name: zmk
       remote: zmkfirmware
       revision: main
+      import: app/west.yml
+    - name: nice-view-battery                  # new entry
+      remote: infely                           # new entry
+      revision: main                           # new entry
     # - name: nice-view-elemental
     #   remote: kevinpastor
     #   revision: main
-      import: app/west.yml
   self:
     path: config
