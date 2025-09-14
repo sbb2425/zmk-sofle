@@ -145,7 +145,7 @@
 &kp TAB                   &kp Q           &kp W           &kp E        &kp R             &kp T          &mmv MOVE_DOWN   &kp Y        &kp U              &kp I                    &kp O              &kp P                &kp BACKSPACE
 &hk LCTRL ESC             &kp A           &kp S           &kp D        &kp F             &kp G          &mmv MOVE_LEFT   &kp H        &kp J              &kp K                    &kp L              &kp SEMI             &kp ENTER
 &mt LEFT_SHIFT LG(SPACE)  &hk LEFT_GUI Z  &hk LEFT_ALT X  &hk LCTRL C  &hk LEFT_SHIFT V  &kp B          &mmv MOVE_RIGHT  &kp N        &hk RIGHT_SHIFT M  &hk RIGHT_CONTROL COMMA  &hk RIGHT_ALT DOT  &hk RIGHT_GUI SLASH  &kp BACKSLASH
-&kp C_MUTE                &mkp LCLK       &mkp RCLK       &htlg 2 2    &htd_num 3 0      &hm 1 SPACE    &mkp MB1         &hm 1 SPACE  &htd_sym 3 0       &htls 12 12              &none              &none
+&kp C_MUTE                &mkp LCLK       &mkp RCLK       &htlg 2 2    &htd_num 3 0      &hm 1 SPACE    &mkp MB1         &hm 1 SPACE  &htd_sym 4 0       &htls 12 12              &none              &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -155,10 +155,10 @@
 
         nav {
             bindings = <
-&none                  &none         &none           &none             &none           &none                &msc SCRL_UP     &none           &none           &none         &none      &none  &none
-&none                  &none         &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_VOLUME_UP      &msc SCRL_DOWN   &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none  &kp DELETE
-&tdcaps                &none         &none           &none             &none           &kp C_VOLUME_DOWN    &msc SCRL_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &kp C_BRI_INC
-&none                  &kp LEFT_GUI  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_MUTE           &msc SCRL_RIGHT  &none           &none           &none         &none      &none  &kp C_BRI_DEC
+&none                  &none         &none           &none             &none           &none                &msc SCRL_UP     &none           &none           &none         &none      &none                  &none
+&none                  &none         &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_VOLUME_UP      &msc SCRL_DOWN   &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none                  &kp DELETE
+&tdcaps                &none         &none           &none             &none           &kp C_VOLUME_DOWN    &msc SCRL_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                  &kp C_BRI_INC
+&none                  &kp LEFT_GUI  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_MUTE           &msc SCRL_RIGHT  &none           &none           &none         &none      &kp C_BRIGHTNESS_AUTO  &kp C_BRI_DEC
 &kp C_BRIGHTNESS_AUTO  &none         &none           &none             &none           &tog 1               &mkp RCLK        &tog 1          &none           &none         &none      &none
             >;
 
@@ -185,7 +185,7 @@
 &kp F7  &kp F8        &kp F9        &kp F10           &kp F11         &kp F12      &none  &kp BACKSPACE  &kp NUMBER_7              &kp NUMBER_8                &kp NUMBER_9            &kp PLUS           &kp ASTERISK
 &kp F1  &kp F2        &kp F3        &kp F4            &kp F5          &kp F6       &none  &none          &kp NUMBER_4              &kp NUMBER_5                &kp NUMBER_6            &kp MINUS          &kp FSLH
 &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none        &none  &kp COMMA      &hk RIGHT_SHIFT NUMBER_1  &hk RIGHT_CONTROL NUMBER_2  &hk RIGHT_ALT NUMBER_3  &hk RIGHT_GUI DOT  &kp EQUAL
-&none   &none         &none         &none             &tog 3          &kp SPACE    &none  &kp ENTER      &tog 3                    &kp NUMBER_0                &none                   &none
+&none   &none         &none         &none             &tog 3          &kp SPACE    &none  &kp ENTER      &none                     &kp NUMBER_0                &none                   &none
             >;
 
             display-name = "num";
@@ -199,7 +199,7 @@
 &trans  &kp GRAVE                 &kp TILDE              &kp LESS_THAN          &kp GREATER_THAN      &kp CARET         &trans  &kp SQT            &kp LEFT_BRACKET            &kp RIGHT_BRACKET              &none              &kp PLUS             &kp ASTERISK
 &trans  &kp AT                    &kp HASH               &kp DOLLAR             &kp PERCENT           &kp AMPERSAND     &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS          &none              &kp MINUS            &kp FSLH
 &trans  &hk LEFT_GUI EXCLAMATION  &hk LEFT_ALT QUESTION  &hk LEFT_CONTROL PIPE  &hk LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp PERIOD         &hk RIGHT_SHIFT LEFT_BRACE  &hk RIGHT_CONTROL RIGHT_BRACE  &hk RIGHT_ALT DOT  &hk RIGHT_GUI COMMA  &kp EQUAL
-&trans  &trans                    &trans                 &htls 12 12            &trans                &trans            &trans  &trans             &trans                      &htls 12 12                    &trans             &trans
+&trans  &trans                    &trans                 &trans                 &trans                &trans            &trans  &trans             &tog 4                      &htls 12 12                    &trans             &trans
             >;
 
             display-name = "sym";
@@ -209,11 +209,11 @@
 
         game {
             bindings = <
-&kp LEFT_ARROW    &kp DOWN   &kp UP  &kp RIGHT     &none      &kp BACKSPACE    &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp F5
-&kp TAB           &kp Q      &kp W   &kp E         &kp R      &kp T            &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp EQUAL
-&kp LEFT_CONTROL  &kp A      &kp S   &kp D         &kp F      &kp G            &mmv MOVE_LEFT   &kp G         &kp T         &kp R         &kp E         &kp UP        &kp ENTER
-&kp LEFT_SHIFT    &kp Z      &kp X   &kp C         &kp V      &kp B            &mmv MOVE_RIGHT  &kp V         &kp B         &kp Z         &kp X         &kp DOWN      &kp ESCAPE
-&kp C_MUTE        &kp EQUAL  &mo 8   &kp LEFT_ALT  &kp SPACE  &htls 7 7        &mkp RCLK        &mkp LCLK     &kp SPACE     &mo 8         &none         &none
+&none             &none  &none  &none         &none      &none        &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none
+&kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T        &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp UP_ARROW
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G        &mmv MOVE_LEFT   &kp E         &kp R         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp DOWN_ARROW
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B        &mmv MOVE_RIGHT  &kp V         &kp B         &kp X         &kp G         &kp T         &kp ESCAPE
+&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &htls 7 7    &mkp LCLK        &kp SPACE     &kp ENTER     &kp F5        &none         &none
             >;
 
             display-name = "game";
@@ -225,11 +225,11 @@
             label = "race";
             display-name = "race";
             bindings = <
-&kp LEFT_ARROW    &kp DOWN   &kp UP  &kp RIGHT     &none      &kp BACKSPACE    &mmv MOVE_UP     &none          &none           &none           &none            &none          &none
-&kp TAB           &kp Q      &kp W   &kp E         &kp R      &kp T            &mmv MOVE_DOWN   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE  &kp F5
-&kp LEFT_CONTROL  &kp A      &kp S   &kp D         &kp F      &kp G            &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &kp ENTER
-&kp LEFT_SHIFT    &kp Z      &kp X   &kp C         &kp V      &kp B            &mmv MOVE_RIGHT  &kp M          &kp H           &kp L           &none            &none          &kp ESCAPE
-&kp C_MUTE        &kp EQUAL  &mo 8   &kp LEFT_ALT  &kp SPACE  &htls 7 7        &mkp RCLK        &mkp LCLK      &kp SPACE       &mo 8           &none            &none
+&none             &none  &none  &none         &none      &none        &mmv MOVE_UP     &none          &none           &none           &none            &none          &none
+&kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T        &mmv MOVE_DOWN   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE  &kp F5
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G        &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &kp ENTER
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B        &mmv MOVE_RIGHT  &kp M          &kp H           &kp L           &none            &none          &kp ESCAPE
+&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &htls 7 7    &mkp RCLK        &mkp LCLK      &kp SPACE       &mo 8           &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -250,11 +250,11 @@
 
         game3 {
             bindings = <
-&none       &none  &none  &none        &none  &none            &none  &none           &none           &none         &none            &none  &none
-&kp F5      &kp Y  &kp U  &kp I        &kp O  &kp P            &none  &none           &none           &none         &none            &none  &none
-&kp ESCAPE  &kp H  &kp J  &kp K        &kp L  &kp ENTER        &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
-&none       &kp N  &kp M  &none        &none  &kp BACKSPACE    &none  &none           &none           &none         &none            &none  &to 0
-&none       &none  &none  &htls 12 12  &none  &none            &none  &none           &none           &htls 12 12   &none            &none
+&none       &none  &none  &none   &none  &none            &none  &none           &none           &none         &none            &none  &none
+&kp F5      &kp Y  &kp U  &kp I   &kp O  &kp P            &none  &none           &none           &none         &none            &none  &none
+&kp ESCAPE  &kp H  &kp J  &kp K   &kp L  &kp ENTER        &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
+&none       &kp N  &kp M  &none   &none  &kp BACKSPACE    &none  &none           &none           &none         &none            &none  &to 0
+&none       &none  &none  &trans  &none  &none            &none  &none           &none           &htls 12 12   &none            &none
             >;
 
             display-name = "game3";
@@ -276,11 +276,11 @@
 
         graph2 {
             bindings = <
-&none                          &none  &none  &none        &none       &none        &none  &none  &none  &none        &none  &none  &none
-&kp ESC                        &kp Y  &kp U  &kp I        &kp O       &kp P        &none  &none  &none  &none        &none  &none  &none
-&hk LEFT_CONTROL LEFT_BRACKET  &kp H  &kp J  &kp K        &kp L       &kp RBKT     &none  &none  &none  &none        &none  &none  &none
-&kp LSHFT                      &kp N  &kp M  &kp COMMA    &kp PERIOD  &kp SLASH    &none  &none  &none  &none        &none  &none  &none
-&none                          &none  &none  &htls 12 12  &kp LALT    &kp ENTER    &none  &none  &none  &htls 12 12  &none  &none
+&none                          &none  &none  &none         &none       &none        &none  &none  &none  &none        &none  &none  &none
+&kp ESC                        &kp Y  &kp U  &kp I         &kp O       &kp P        &none  &none  &none  &none        &none  &none  &none
+&hk LEFT_CONTROL LEFT_BRACKET  &kp H  &kp J  &kp K         &kp L       &kp RBKT     &none  &none  &none  &none        &none  &none  &none
+&kp LSHFT                      &kp N  &kp M  &kp COMMA     &kp PERIOD  &kp SLASH    &none  &none  &none  &none        &none  &none  &none
+&none                          &none  &none  &kp LEFT_GUI  &kp LALT    &kp ENTER    &none  &none  &none  &htls 12 12  &none  &none
             >;
 
             display-name = "graph2";
