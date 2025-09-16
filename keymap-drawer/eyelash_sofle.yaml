@@ -62,7 +62,7 @@ layers:
   - '&mkp MB1'
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: '&td_sym', h: sym}
-  - {t: func, h: func}
+  - '&td_sys'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   nav:
@@ -841,7 +841,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
