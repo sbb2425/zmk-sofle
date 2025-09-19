@@ -141,6 +141,13 @@
         bindings = <&none>, <&htls 12 12>;
     };
 
+    td_sys_g: td_sys_g {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_SYS_G";
+        #binding-cells = <0>;
+        bindings = <&kp F5>, <&htls 12 12>;
+    };
+
     behaviors {
     };
 
@@ -221,7 +228,7 @@
 &kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T        &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp UP_ARROW
 &kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G        &mmv MOVE_LEFT   &kp E         &kp R         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp DOWN_ARROW
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B        &mmv MOVE_RIGHT  &kp V         &kp B         &kp X         &kp G         &kp T         &kp ESCAPE
-&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &htls 7 7    &mkp LCLK        &kp SPACE     &kp ENTER     &kp F5        &none         &none
+&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &htls 7 7    &mkp LCLK        &kp SPACE     &kp ENTER     &td_sys_g     &none         &none
             >;
 
             display-name = "game";
@@ -237,7 +244,7 @@
 &kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T        &mmv MOVE_DOWN   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE  &kp F5
 &kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G        &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE     &kp ENTER
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B        &mmv MOVE_RIGHT  &kp M          &kp H           &kp L           &none            &none          &kp ESCAPE
-&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &htls 7 7    &mkp RCLK        &mkp LCLK      &kp SPACE       &mo 8           &none            &none
+&kp C_MUTE        &none  &none  &kp LEFT_ALT  &kp SPACE  &htls 7 7    &mkp RCLK        &mkp LCLK      &kp SPACE       &td_sys_g       &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -275,7 +282,7 @@
 &kp TAB    &kp Q  &kp W  &kp E        &kp R     &kp T        &none  &kp Y  &kp U  &kp I      &kp O    &kp P          &kp BSPC
 &kp LCTRL  &kp A  &kp S  &kp D        &kp F     &kp G        &none  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON  &kp ENTER
 &kp LSHFT  &kp Z  &kp X  &kp C        &kp V     &hm 11 B     &none  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp BSLH
-&none      &none  &none  &htls 10 10  &kp LALT  &kp SPACE    &none  &none  &none  &mo 10     &none    &none
+&none      &none  &none  &htls 10 10  &kp LALT  &kp SPACE    &none  &none  &none  &td_sys_g  &none    &none
             >;
 
             display-name = "graph";
@@ -284,11 +291,11 @@
 
         graph2 {
             bindings = <
-&none                          &none  &none  &none         &none       &none        &none  &none  &none  &none        &none  &none  &none
-&kp ESC                        &kp Y  &kp U  &kp I         &kp O       &kp P        &none  &none  &none  &none        &none  &none  &none
-&hk LEFT_CONTROL LEFT_BRACKET  &kp H  &kp J  &kp K         &kp L       &kp RBKT     &none  &none  &none  &none        &none  &none  &none
-&kp LSHFT                      &kp N  &kp M  &kp COMMA     &kp PERIOD  &kp SLASH    &none  &none  &none  &none        &none  &none  &none
-&none                          &none  &none  &kp LEFT_GUI  &kp LALT    &kp ENTER    &none  &none  &none  &htls 12 12  &none  &none
+&none             &none  &none  &none             &none              &none        &none  &none  &none  &none        &none  &none  &none
+&kp ESC           &kp Y  &kp U  &kp I             &kp O              &kp P        &none  &none  &none  &none        &none  &none  &none
+&kp LEFT_CONTROL  &kp H  &kp J  &kp K             &kp L              &kp RBKT     &none  &none  &none  &none        &none  &none  &none
+&kp LSHFT         &kp N  &kp M  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH    &none  &none  &none  &none        &none  &none  &none
+&none             &none  &none  &trans            &kp LALT           &kp ENTER    &none  &none  &none  &htls 12 12  &none  &none
             >;
 
             display-name = "graph2";
@@ -297,11 +304,11 @@
 
         graph3 {
             bindings = <
-&trans     &trans     &trans     &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp N6     &kp N7     &kp N8    &kp N9    &kp N0    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp MINUS  &kp EQUAL  &kp SEMI  &kp APOS  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &trans    &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp N1     &kp N2     &kp N3    &kp N4        &kp N5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp N6     &kp N7     &kp N8    &kp N9        &kp N0    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp MINUS  &kp EQUAL  &kp SEMI  &kp APOS      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &trans    &kp LEFT_ALT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "graph3";
