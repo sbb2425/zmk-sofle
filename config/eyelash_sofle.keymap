@@ -160,7 +160,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "TD_GAME_LAYERS";
         #binding-cells = <0>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <250>;
         bindings = <&htls 7 7>, <&htls 8 8>;
     };
 
