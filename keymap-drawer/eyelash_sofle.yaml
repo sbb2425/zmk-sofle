@@ -630,7 +630,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: graph3}
+  - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
@@ -682,7 +682,7 @@ layers:
   - J
   - K
   - L
-  - {t: ']', s: '}'}
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -693,9 +693,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - N
   - M
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: /, s: '?'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -706,8 +706,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -759,9 +759,8 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -774,6 +773,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
