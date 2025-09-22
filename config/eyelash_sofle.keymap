@@ -164,6 +164,44 @@
         bindings = <&htls 7 7>, <&htls 8 8>;
     };
 
+    td_game: td_game {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_GAME";
+        #binding-cells = <0>;
+        bindings = <&sl 7>, <&htls 8 8>;
+
+        tapping-term-ms = <300>;
+    };
+
+    htd_game: htd_game {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HTD_GAME";
+        bindings = <&mo>, <&td_game>;
+
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <500>;
+    };
+
+    td_graph: td_graph {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_GRAPH";
+        #binding-cells = <0>;
+        bindings = <&sl 10>, <&htls 11 11>;
+
+        tapping-term-ms = <300>;
+    };
+
+    htd_graph: htd_graph {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HTD_GRAPH";
+        bindings = <&mo>, <&td_graph>;
+
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <500>;
+    };
+
     behaviors {
     };
 
