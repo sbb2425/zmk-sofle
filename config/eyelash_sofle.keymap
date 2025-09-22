@@ -148,22 +148,6 @@
         bindings = <&kp F5>, <&htls 12 12>;
     };
 
-    td_graph_layer: td_graph_layer {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_GRAPH_LAYER";
-        #binding-cells = <0>;
-        tapping-term-ms = <300>;
-        bindings = <&htls 10 10>, <&htls 11 11>;
-    };
-
-    td_game_layers: td_game_layers {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_GAME_LAYERS";
-        #binding-cells = <0>;
-        tapping-term-ms = <250>;
-        bindings = <&htls 7 7>, <&htls 8 8>;
-    };
-
     td_game: td_game {
         compatible = "zmk,behavior-tap-dance";
         label = "TD_GAME";
