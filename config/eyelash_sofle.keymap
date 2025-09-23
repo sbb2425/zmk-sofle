@@ -146,6 +146,8 @@
         label = "TD_SYS_G";
         #binding-cells = <0>;
         bindings = <&kp F5>, <&htls 12 12>;
+
+        tapping-term-ms = <500>;
     };
 
     td_game: td_game {
