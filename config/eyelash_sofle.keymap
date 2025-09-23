@@ -154,7 +154,7 @@
         #binding-cells = <0>;
         bindings = <&sl 7>, <&sl 8>;
 
-        tapping-term-ms = <300>;
+        tapping-term-ms = <500>;
     };
 
     htd_game: htd_game {
@@ -164,7 +164,7 @@
 
         #binding-cells = <2>;
         flavor = "tap-preferred";
-        tapping-term-ms = <300>;
+        tapping-term-ms = <500>;
     };
 
     td_graph: td_graph {
@@ -173,7 +173,7 @@
         #binding-cells = <0>;
         bindings = <&sl 10>, <&sl 11>;
 
-        tapping-term-ms = <300>;
+        tapping-term-ms = <500>;
     };
 
     htd_graph: htd_graph {
