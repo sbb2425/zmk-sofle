@@ -729,12 +729,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+Ctl+F1
+  - Alt+Ctl+F2
+  - Alt+Ctl+F3
+  - Alt+Ctl+F4
+  - Alt+Ctl+F5
+  - Alt+Ctl+F6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -747,7 +747,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
   - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+Ctl+F7
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
@@ -755,7 +755,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
   - {t: RIGHT GUI, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$', type: held}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$', type: held}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$', type: held}
