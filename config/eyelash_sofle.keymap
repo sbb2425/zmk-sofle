@@ -428,11 +428,11 @@
 
         mod {
             bindings = <
-&none  &none         &none         &none             &none           &none    &none  &none  &none            &none              &none          &none          &none
-&none  &none         &none         &none             &none           &none    &none  &none  &none            &none              &none          &none          &none
-&none  &kt LEFT_GUI  &kt LEFT_ALT  &kt LEFT_CONTROL  &kt LEFT_SHIFT  &none    &none  &none  &kt RIGHT_SHIFT  &kt RIGHT_CONTROL  &kt RIGHT_ALT  &kt RIGHT_GUI  &none
-&none  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &none    &none  &none  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_GUI  &none
-&none  &none         &none         &none             &exit_mod       &none    &none  &none  &exit_mod        &none              &none          &none
+&none               &none           &none           &none             &none           &none             &none  &none  &none            &none              &none          &none          &none
+&kp LA(LC(F1))      &kp LA(LC(F2))  &kp LA(LC(F3))  &kp LA(LC(F4))    &kp LA(LC(F5))  &kp LA(LC(F6))    &none  &none  &none            &none              &none          &none          &none
+&none               &kt LEFT_GUI    &kt LEFT_ALT    &kt LEFT_CONTROL  &kt LEFT_SHIFT  &kp LA(LC(F7))    &none  &none  &kt RIGHT_SHIFT  &kt RIGHT_CONTROL  &kt RIGHT_ALT  &kt RIGHT_GUI  &none
+&kp LC(LA(DELETE))  &sk LEFT_GUI    &sk LEFT_ALT    &sk LEFT_CONTROL  &sk LEFT_SHIFT  &none             &none  &none  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_GUI  &none
+&none               &none           &none           &none             &exit_mod       &none             &none  &none  &exit_mod        &none              &none          &none
             >;
 
             label = "mod";
