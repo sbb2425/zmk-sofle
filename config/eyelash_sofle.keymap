@@ -320,11 +320,11 @@
 
         game2 {
             bindings = <
-&none   &none   &none   &none   &none   &none     &none  &trans  &trans  &trans  &trans  &trans  &none
-&trans  &trans  &trans  &trans  &kp N1  &kp N2    &none  &trans  &trans  &trans  &trans  &trans  &none
-&trans  &trans  &trans  &trans  &kp N3  &kp N4    &none  &trans  &trans  &trans  &trans  &trans  &none
-&mo 3   &kp N9  &kp N8  &kp N7  &kp N5  &kp N6    &none  &trans  &trans  &trans  &trans  &trans  &none
-&none   &none   &none   &trans  &trans  &none     &none  &none   &none   &trans  &none   &none
+&none   &none         &none   &none         &none         &none           &none  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &kp NUMBER_0  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &none  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans        &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &none  &trans  &trans  &trans  &trans  &trans  &none
+&mo 3   &trans        &trans  &kp N7        &kp NUMBER_8  &kp NUMBER_9    &none  &trans  &trans  &trans  &trans  &trans  &none
+&none   &none         &none   &trans        &trans        &none           &none  &none   &none   &trans  &none   &none
             >;
 
             label = "G2";
