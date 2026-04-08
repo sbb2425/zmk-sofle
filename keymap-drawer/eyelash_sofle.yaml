@@ -853,3 +853,6 @@ combos:
 - p: [30, 29]
   k: $$mdi:keyboard-tab$$
   l: [BASE]
+- p: [57, 39]
+  k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
+  l: [GAME]

@@ -1251,6 +1251,14 @@ rect.held, rect.combo.held {
 <text x="756" y="207" class="combo tap layer-activator">mod</text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="748" y="203" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-11">
+<path d="M209,259 l162,31" class="combo"/>
+<path d="M209,259 l-162,-31" class="combo"/>
+<rect rx="6" ry="6" x="195" y="246" width="28" height="26" class="combo"/>
+<a href="#G3">
+<text x="209" y="259" class="combo tap layer-activator">G3</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="201" y="255" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-G2">
