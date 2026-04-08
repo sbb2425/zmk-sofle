@@ -287,6 +287,12 @@
             require-prior-idle-ms = <150>;
             slow-release;
         };
+
+        sl_game3_layer {
+            bindings = <&sl 3>;
+            key-positions = <57 39>;
+            layers = <1>;
+        };
     };
 
     keymap {
