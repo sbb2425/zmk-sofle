@@ -785,7 +785,7 @@ combos:
   k: '&soft_off'
 - p: [57, 55]
   k: {t: func, h: '$$mdi:gesture-tap-hold$$'}
-  l: [BASE, G2, G3, GAME, NUM, SYM, NAV, FN, swap, media]
+  l: [BASE, NUM, SYM, NAV, FN, swap, media, GAME, G2, G3]
 - p: [56, 57]
   k: {t: NUM, h: toggle}
   l: [BASE, GAME]
