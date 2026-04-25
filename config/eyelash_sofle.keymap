@@ -248,18 +248,6 @@
             layers = <0>;
         };
 
-        esc_left_combo {
-            bindings = <&kp ESCAPE>;
-            key-positions = <26 18>;
-            layers = <0 4 5 6 7 9>;
-        };
-
-        esc-toggle {
-            bindings = <&kp ESCAPE>;
-            key-positions = <26 25>;
-            layers = <0 4 5 6 7 9>;
-        };
-
         sl_mod_left {
             bindings = <&sl 11>;
             key-positions = <43 42 41 40>;
