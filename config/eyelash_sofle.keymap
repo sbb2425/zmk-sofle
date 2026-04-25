@@ -293,6 +293,12 @@
             key-positions = <57 39>;
             layers = <1>;
         };
+
+        sl_game3 {
+            bindings = <&sl 3>;
+            key-positions = <41 42 43>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -303,7 +309,7 @@
 &none                    &none           &none               &none                   &none                 &none        &mmv MOVE_UP     &none      &none                  &none                        &none                  &none               &none
 &kp TAB                  &kp Q           &kp W               &kp E                   &kp R                 &kp T        &mmv MOVE_DOWN   &kp Y      &kp U                  &kp I                        &kp O                  &kp P               &kp BSPC
 &ht_2kp LCTRL ESCAPE     &kp A           &kp S               &kp D                   &kp F                 &kp G        &mmv MOVE_LEFT   &kp H      &kp J                  &kp K                        &kp L                  &kp SEMI            &kp RET
-&mt LSHFT LC(LS(SPACE))  &ht_2kp LGUI Z  &ht_2kp LEFT_ALT X  &ht_2kp LEFT_CONTROL C  &ht_2kp LEFT_SHIFT V  &kp B        &mmv MOVE_RIGHT  &kp N      &ht_2kp RIGHT_SHIFT M  &ht_2kp RIGHT_CONTROL COMMA  &ht_2kp RIGHT_ALT DOT  &ht_2kp RGUI SLASH  &kp BSLH
+&mt LSHFT LA(LG(SPACE))  &ht_2kp LGUI Z  &ht_2kp LEFT_ALT X  &ht_2kp LEFT_CONTROL C  &ht_2kp LEFT_SHIFT V  &kp B        &mmv MOVE_RIGHT  &kp N      &ht_2kp RIGHT_SHIFT M  &ht_2kp RIGHT_CONTROL COMMA  &ht_2kp RIGHT_ALT DOT  &ht_2kp RGUI SLASH  &kp BSLH
 &none                    &kp LEFT_ALT    &kp LGUI            &ht_mo_sl 6 6           &ht_mo_sl 4 4         &kp SPACE    &mkp LCLK        &kp SPACE  &ht_mo_sl 5 5          &ht_mo_sl 7 7                &mkp MCLK              &mkp RCLK
             >;
 
