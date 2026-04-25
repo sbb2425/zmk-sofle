@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: 'Ctl+Sft+$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: 'Alt+Gui+$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: LGUI}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - {t: C, h: '$$mdi:apple-keyboard-control$$'}
@@ -237,9 +237,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: M, type: held alternate}
+  - {t: ',', s: <, type: held alternate}
+  - {t: ., s: '>', type: held alternate}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -854,5 +854,8 @@ combos:
   k: $$mdi:keyboard-tab$$
   l: [BASE]
 - p: [57, 39]
+  k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
+  l: [GAME]
+- p: [41, 42, 43]
   k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
   l: [GAME]
