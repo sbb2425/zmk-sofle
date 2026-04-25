@@ -837,12 +837,6 @@ combos:
 - p: [33, 59]
   k: {t: swap, h: toggle}
   l: [BASE]
-- p: [26, 18]
-  k: $$mdi:keyboard-esc$$
-  l: [BASE, NUM, SYM, NAV, FN, swap]
-- p: [26, 25]
-  k: $$mdi:keyboard-esc$$
-  l: [BASE, NUM, SYM, NAV, FN, swap]
 - p: [43, 42, 41, 40]
   k: {t: mod, h: '$$mdi:gesture-tap-hold$$'}
 - p: [47, 48, 50, 49]
