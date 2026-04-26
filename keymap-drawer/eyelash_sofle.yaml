@@ -236,10 +236,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - N
+  - {t: N, type: held alternate}
   - {t: M, type: held alternate}
   - {t: ',', s: <, type: held alternate}
-  - {t: ., s: '>', type: held alternate}
+  - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -850,6 +850,6 @@ combos:
 - p: [57, 39]
   k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
   l: [GAME]
-- p: [41, 42, 43]
+- p: [41, 42, 40]
   k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
   l: [GAME]
