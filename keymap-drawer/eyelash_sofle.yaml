@@ -145,11 +145,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
-  - '0'
+  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
+  - '7'
   - '1'
   - '2'
-  - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -161,8 +161,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '3'
   - '4'
-  - '5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -172,10 +172,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: G3, h: G3}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '9'
+  - '0'
   - '8'
+  - '5'
   - '6'
-  - '7'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
