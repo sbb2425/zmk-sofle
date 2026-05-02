@@ -145,9 +145,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
-  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '7'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
   - '1'
   - '2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -171,9 +171,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: G3, h: G3}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '0'
   - '8'
+  - '9'
+  - '7'
   - '5'
   - '6'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
