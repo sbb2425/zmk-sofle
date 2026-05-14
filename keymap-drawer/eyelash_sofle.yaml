@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', type: held alternate}
   - H
   - J
   - K
@@ -847,7 +847,7 @@ combos:
 - p: [30, 29]
   k: $$mdi:keyboard-tab$$
   l: [BASE]
-- p: [57, 39]
+- p: [57, 26]
   k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
   l: [GAME]
 - p: [40, 42]
