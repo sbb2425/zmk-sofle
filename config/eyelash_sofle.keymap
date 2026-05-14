@@ -278,7 +278,7 @@
 
         sl_game3_layer {
             bindings = <&sl 3>;
-            key-positions = <57 39>;
+            key-positions = <57 26>;
             layers = <1>;
         };
 
