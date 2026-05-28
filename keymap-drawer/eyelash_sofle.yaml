@@ -535,11 +535,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BRIGHTNESS AUTO
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
+  - PREVIOUS
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - BRIGHTNESS MINIMUM
-  - BRIGHTNESS MAXIMUM
+  - $$mdi:brightness-5$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -549,10 +549,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
+  - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - PREVIOUS
-  - PLAY PAUSE
-  - $$mdi:skip-next$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
