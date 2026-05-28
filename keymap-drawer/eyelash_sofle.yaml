@@ -54,16 +54,16 @@ layers:
   - {t: /, h: RGUI, s: '?'}
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-option$$
-  - LGUI
-  - {t: NAV, h: NAV}
-  - {t: NUM, h: NUM}
+  - media
+  - swap
+  - NAV
+  - NUM
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
-  - {t: SYM, h: SYM}
-  - {t: FN, h: FN}
-  - $$mdi:mouse-scroll-wheel$$
+  - SYM
+  - FN
+  - swap
   - $$mdi:mouse-right-click-outline$$
   GAME:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -574,7 +574,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&exit_media'
@@ -640,15 +640,15 @@ layers:
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&exit_swap'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&exit_swap'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&exit_swap'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   func:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
