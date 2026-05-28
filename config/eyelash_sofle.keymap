@@ -368,11 +368,11 @@
 
         nav {
             bindings = <
-&none         &none         &none         &none             &none           &none        &none  &none     &none            &none              &none          &none          &none
-&caps_word    &none         &kp HOME      &kp PAGE_DOWN     &kp PAGE_UP     &kp END      &none  &kp HOME  &kp PG_DN        &kp PG_UP          &kp END        &none          &kp DELETE
-&kp ESCAPE    &none         &kp LEFT      &kp UP            &kp DOWN        &kp RIGHT    &none  &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT      &none          &none
-&kp CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none        &none  &none     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none         &none         &none         &none             &exit_nav       &none        &none  &none     &exit_nav        &none              &none          &none
+&none         &none                &none                &none             &none                  &none            &none  &none     &none            &none              &none          &none          &none
+&caps_word    &kp HOME             &kp UP               &kp END           &kp PAGE_UP            &kp BACKSPACE    &none  &kp HOME  &kp PG_DN        &kp PG_UP          &kp END        &none          &kp DELETE
+&kp ESCAPE    &kp LEFT             &kp DOWN             &kp RIGHT         &kp PAGE_DOWN          &kp ENTER        &none  &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT      &none          &none
+&kp CAPSLOCK  &ht_2kp LEFT_GUI F1  &ht_2kp LEFT_ALT F2  &ht_2kp LCTRL F3  &ht_2kp LEFT_SHIFT F4  &kp F5           &none  &none     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none         &none                &none                &none             &exit_nav              &none            &none  &none     &exit_nav        &none              &none          &none
             >;
 
             label = "NAV";
