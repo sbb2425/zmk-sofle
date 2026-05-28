@@ -146,16 +146,16 @@
             layers = <0 4 5 6 7 9 8 1 2 3>;
         };
 
-        num_tog_left {
+        num_tog {
             bindings = <&tog 4>;
             key-positions = <56 57>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
-        sym_tog_right {
+        sym_tog {
             bindings = <&tog 5>;
             key-positions = <59 60>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
         nav_tog {
@@ -170,7 +170,7 @@
             layers = <0 1>;
         };
 
-        media_layer {
+        media_tog {
             bindings = <&tog 8>;
             key-positions = <57 53>;
             layers = <0 1>;
