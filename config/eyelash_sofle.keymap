@@ -311,7 +311,7 @@
 &kp TAB     &kp Q  &kp W  &kp E     &kp R      &kp T    &mmv MOVE_DOWN   &kp N6     &kp N7     &kp N8  &kp N9  &kp N0  &kp UP
 &kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G    &mmv MOVE_LEFT   &kp E      &kp R      &kp G   &kp C   &kp Q   &kp DOWN
 &kp LSHFT   &kp Z  &kp X  &kp C     &kp V      &kp B    &mmv MOVE_RIGHT  &kp V      &kp B      &kp Z   &kp X   &kp T   &kp F5
-&kp C_MUTE  &mo 6  &mo 3  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &kp ENTER  &kp F   &none   &none
+&kp C_MUTE  &mo 6  &mo 3  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &kp ENTER  &kp F   &kp H   &none
             >;
 
             label = "GAME";
@@ -320,11 +320,11 @@
 
         game2 {
             bindings = <
-&none       &none         &none         &none         &none         &none           &none  &trans  &trans  &trans  &trans  &trans  &none
-&kp GRAVE   &trans        &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2    &none  &trans  &trans  &trans  &trans  &trans  &none
-&kp ESCAPE  &trans        &trans        &trans        &kp NUMBER_3  &kp NUMBER_4    &none  &trans  &trans  &trans  &trans  &trans  &none
-&trans      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_7  &kp NUMBER_5  &kp NUMBER_6    &none  &trans  &trans  &trans  &trans  &trans  &none
-&none       &none         &none         &trans        &trans        &none           &none  &none   &none   &trans  &none   &none
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE   &trans        &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &trans        &trans        &trans        &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_5  &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "G2";
