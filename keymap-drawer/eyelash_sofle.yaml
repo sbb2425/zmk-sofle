@@ -788,10 +788,10 @@ combos:
   l: [BASE, NUM, SYM, NAV, FN, swap, media, GAME, G2, G3]
 - p: [56, 57]
   k: {t: NUM, h: toggle}
-  l: [BASE, GAME]
+  l: [BASE]
 - p: [59, 60]
   k: {t: SYM, h: toggle}
-  l: [BASE, GAME]
+  l: [BASE]
 - p: [55, 57]
   k: {t: NAV, h: toggle}
   l: [BASE, GAME, NUM, SYM]

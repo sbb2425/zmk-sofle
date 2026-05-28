@@ -1110,18 +1110,6 @@ rect.held, rect.combo.held {
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="311" y="275" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="338" y="276" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="352" y="289" class="combo tap layer-activator">NUM</text>
-</a><text x="352" y="300" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="558" y="276" width="28" height="26" class="combo"/>
-<a href="#SYM">
-<text x="572" y="289" class="combo tap layer-activator">SYM</text>
-</a><text x="572" y="300" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-4">
 <path d="M321,276 l-50,-13" class="combo"/>
 <path d="M321,276 l50,13" class="combo"/>
 <rect rx="6" ry="6" x="307" y="264" width="28" height="26" class="combo"/>
@@ -1129,7 +1117,7 @@ rect.held, rect.combo.held {
 <text x="321" y="276" class="combo tap layer-activator">NAV</text>
 </a><text x="321" y="288" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-3">
 <path d="M603,276 l50,-13" class="combo"/>
 <path d="M603,276 l-50,13" class="combo"/>
 <rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
@@ -1137,7 +1125,7 @@ rect.held, rect.combo.held {
 <text x="603" y="276" class="combo tap layer-activator">FN</text>
 </a><text x="603" y="288" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-4">
 <path d="M265,276 l106,15" class="combo"/>
 <path d="M265,276 l-106,-15" class="combo"/>
 <rect rx="6" ry="6" x="251" y="264" width="28" height="26" class="combo"/>
@@ -1145,13 +1133,13 @@ rect.held, rect.combo.held {
 <text x="265" y="276" class="combo tap layer-activator">media</text>
 </a><text x="265" y="288" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
 <a href="#NUM">
 <text x="641" y="271" class="combo tap layer-activator">NUM</text>
 </a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-6">
 <path d="M168,207 l65,-3" class="combo"/>
 <path d="M168,207 l-66,14" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -1159,7 +1147,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">mod</text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="203" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-7">
 <path d="M756,207 l-65,-3" class="combo"/>
 <path d="M756,207 l66,14" class="combo"/>
 <rect rx="6" ry="6" x="742" y="194" width="28" height="26" class="combo"/>
@@ -1167,7 +1155,7 @@ rect.held, rect.combo.held {
 <text x="756" y="207" class="combo tap layer-activator">mod</text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="748" y="203" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-8">
 <path d="M209,259 l162,31" class="combo"/>
 <path d="M209,259 l-162,-31" class="combo"/>
 <rect rx="6" ry="6" x="195" y="246" width="28" height="26" class="combo"/>
