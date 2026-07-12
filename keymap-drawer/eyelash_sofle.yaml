@@ -658,10 +658,10 @@ combos:
   l: [BASE, NUM, SYM, NAV, FN, media, GAME, G2, G3]
 - p: [34, 35]
   k: $$mdi:keyboard-esc$$
-  l: [BASE, NUM, SYM, NAV, FN, media, func]
-- p: [30, 29]
+  l: [BASE, NUM, SYM, NAV, FN]
+- p: [29, 30]
   k: $$mdi:keyboard-tab$$
-  l: [BASE]
+  l: [BASE, NUM, SYM, NAV, FN]
 - p: [57, 39]
   k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
   l: [GAME]
@@ -670,3 +670,4 @@ combos:
   l: [GAME]
 - p: [55, 39]
   k: media
+  l: [BASE]
