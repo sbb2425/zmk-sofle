@@ -284,11 +284,11 @@
 
         num {
             bindings = <
-&none         &none                   &none                      &none                          &none                        &none            &none  &none          &none                         &none                           &none                       &none                  &none
-&kp ASTERISK  &kp PLUS                &kp NUMBER_7               &kp NUMBER_8                   &kp NUMBER_9                 &kp DELETE       &none  &kp DELETE     &kp N7                        &kp N8                          &kp N9                      &kp PLUS               &kp ASTERISK
-&kp SLASH     &kp MINUS               &kp NUMBER_4               &kp NUMBER_5                   &kp NUMBER_6                 &kp BACKSPACE    &none  &kp BACKSPACE  &kp N4                        &kp N5                          &kp N6                      &kp MINUS              &kp SLASH
-&none         &ht_2kp LEFT_GUI COMMA  &ht_2kp LEFT_ALT NUMBER_1  &ht_2kp LEFT_CONTROL NUMBER_2  &ht_2kp LEFT_SHIFT NUMBER_3  &kp DOT          &none  &kp COMMA      &ht_2kp RIGHT_SHIFT NUMBER_1  &ht_2kp RIGHT_CONTROL NUMBER_2  &ht_2kp RIGHT_ALT NUMBER_3  &ht_2kp RIGHT_GUI DOT  &kp EQUAL
-&none         &none                   &none                      &kp NUMBER_0                   &exit_num                    &kp SPACE        &none  &kp ENTER      &exit_num                     &kp N0                          &none                       &none
+&none   &none   &none         &none         &none         &none        &none  &none   &none         &none         &none         &none   &none
+&trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans       &none  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans       &none  &trans  &kp N4        &kp N5        &kp N6        &trans  &trans
+&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&none   &none   &none         &kp NUMBER_0  &exit_num     &kp SPACE    &none  &trans  &trans        &kp N0        &none         &none
             >;
 
             label = "NUM";
@@ -296,11 +296,11 @@
 
         sym {
             bindings = <
-&none       &none                         &none                      &none                      &none                     &none             &none  &none              &none                           &none                              &none                  &none      &none
-&none       &kp GRAVE                     &kp TILDE                  &kp LESS_THAN              &kp GREATER_THAN          &kp CARET         &none  &kp APOSTROPHE     &kp LEFT_BRACKET                &kp RIGHT_BRACKET                  &none                  &kp PLUS   &kp ASTERISK
-&kp ESCAPE  &kp AT_SIGN                   &kp HASH                   &kp DOLLAR                 &kp PERCENT               &kp AMPERSAND     &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS              &none                  &kp MINUS  &kp SLASH
-&none       &ht_2kp LEFT_GUI EXCLAMATION  &ht_2kp LEFT_ALT QUESTION  &ht_2kp LEFT_CONTROL PIPE  &ht_2kp LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp COMMA          &ht_2kp RIGHT_SHIFT LEFT_BRACE  &ht_2kp RIGHT_CONTROL RIGHT_BRACE  &ht_2kp RIGHT_ALT DOT  &kp DOT    &kp EQUAL
-&none       &none                         &none                      &none                      &exit_sym                 &none             &none  &none              &exit_sym                       &none                              &none                  &none
+&none   &none                         &none                      &none                      &none                     &none             &none  &none              &none                           &none                              &none                  &none      &none
+&trans  &kp GRAVE                     &kp TILDE                  &kp LESS_THAN              &kp GREATER_THAN          &kp CARET         &none  &kp APOSTROPHE     &kp LEFT_BRACKET                &kp RIGHT_BRACKET                  &kp ASTERISK           &kp PLUS   &trans
+&trans  &kp AT_SIGN                   &kp HASH                   &kp DOLLAR                 &kp PERCENT               &kp AMPERSAND     &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS              &kp SLASH              &kp MINUS  &trans
+&trans  &ht_2kp LEFT_GUI EXCLAMATION  &ht_2kp LEFT_ALT QUESTION  &ht_2kp LEFT_CONTROL PIPE  &ht_2kp LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp COMMA          &ht_2kp RIGHT_SHIFT LEFT_BRACE  &ht_2kp RIGHT_CONTROL RIGHT_BRACE  &ht_2kp RIGHT_ALT DOT  &kp EQUAL  &trans
+&none   &none                         &none                      &trans                     &exit_sym                 &trans            &none  &trans             &exit_sym                       &trans                             &none                  &none
             >;
 
             label = "SYM";
