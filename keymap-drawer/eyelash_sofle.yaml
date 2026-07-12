@@ -41,17 +41,17 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: 'Alt+Ctl+$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Z, h: LGUI}
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Z, h: LGUI, type: held}
+  - {t: X, h: '$$mdi:apple-keyboard-option$$', type: held}
+  - {t: C, h: '$$mdi:apple-keyboard-control$$', type: held}
+  - {t: V, h: '$$mdi:apple-keyboard-shift$$', type: held}
   - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - N
-  - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
-  - {t: /, h: RGUI, s: '?'}
+  - {t: M, h: '$$mdi:apple-keyboard-shift$$', type: held alternate}
+  - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <, type: held alternate}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>', type: held alternate}
+  - {t: /, h: RGUI, s: '?', type: held alternate}
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - media
@@ -715,89 +715,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  mod:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+Ctl+F1
-  - Alt+Ctl+F2
-  - Alt+Ctl+F3
-  - Alt+Ctl+F4
-  - Alt+Ctl+F5
-  - Alt+Ctl+F6
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-command$$', h: toggle}
-  - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
-  - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - Alt+Ctl+F7
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
-  - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
-  - {t: RIGHT GUI, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$', type: held}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$', type: held}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$', type: held}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', type: held alternate}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$', type: held alternate}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$', type: held alternate}
-  - {t: RIGHT GUI, h: '$$mdi:gesture-tap-hold$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&exit_mod'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&exit_mod'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
 - p: [57, 55, 56]
   k: {t: func, h: '$$mdi:gesture-tap-hold$$'}
   l: [BASE, NUM, SYM, NAV, FN, swap, media, GAME, G2, G3]
-- p: [56, 57]
-  k: {t: NUM, h: toggle}
-  l: [BASE]
-- p: [59, 60]
-  k: {t: SYM, h: toggle}
-  l: [BASE]
-- p: [55, 57]
-  k: {t: NAV, h: toggle}
-  l: [BASE, GAME, NUM, SYM]
-- p: [61, 59]
-  k: {t: FN, h: toggle}
-  l: [BASE, GAME]
 - p: [57, 53]
   k: {t: media, h: toggle}
   l: [BASE, GAME]
@@ -811,12 +734,12 @@ combos:
   k: {t: swap, h: toggle}
   l: [BASE]
 - p: [43, 42, 41, 40]
-  k: {t: mod, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: BASE, h: '$$mdi:gesture-tap-hold$$'}
 - p: [47, 48, 50, 49]
-  k: {t: mod, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: BASE, h: '$$mdi:gesture-tap-hold$$'}
 - p: [34, 35]
   k: $$mdi:keyboard-esc$$
-  l: [BASE, NUM, SYM, NAV, FN, media, func, mod]
+  l: [BASE, NUM, SYM, NAV, FN, media, func]
 - p: [30, 29]
   k: $$mdi:keyboard-tab$$
   l: [BASE]
