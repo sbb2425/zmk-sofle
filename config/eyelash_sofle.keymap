@@ -170,10 +170,10 @@
 
         mo_nav_layer {
             bindings = <&mo 6>;
-            key-positions = <55 39>;
+            key-positions = <55 26>;
             layers = <1>;
             require-prior-idle-ms = <20>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
         };
 
         mo_media_layer {
