@@ -147,18 +147,18 @@
         escape_combo {
             bindings = <&kp ESCAPE>;
             key-positions = <34 35>;
-            layers = <0 4 5 6 7 8 9>;
-            require-prior-idle-ms = <150>;
-            timeout-ms = <150>;
+            layers = <0 4 5 6 7>;
+            require-prior-idle-ms = <50>;
+            timeout-ms = <30>;
             slow-release;
         };
 
         tab_combo {
             bindings = <&kp TAB>;
-            key-positions = <30 29>;
-            layers = <0>;
-            timeout-ms = <150>;
-            require-prior-idle-ms = <150>;
+            key-positions = <29 30>;
+            layers = <0 4 5 6 7>;
+            timeout-ms = <20>;
+            require-prior-idle-ms = <50>;
             slow-release;
         };
 
@@ -172,11 +172,16 @@
             bindings = <&mo 6>;
             key-positions = <55 39>;
             layers = <1>;
+            require-prior-idle-ms = <20>;
+            timeout-ms = <30>;
         };
 
         mo_media_layer {
             bindings = <&mo 8>;
             key-positions = <55 39>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
         };
     };
 
