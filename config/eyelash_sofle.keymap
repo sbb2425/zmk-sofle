@@ -149,7 +149,7 @@
             key-positions = <34 35>;
             layers = <0 4 5 6 7>;
             require-prior-idle-ms = <50>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
             slow-release;
         };
 
@@ -173,15 +173,20 @@
             key-positions = <55 39>;
             layers = <1>;
             require-prior-idle-ms = <20>;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
         };
 
         mo_media_layer {
             bindings = <&mo 8>;
             key-positions = <55 39>;
             timeout-ms = <50>;
-            require-prior-idle-ms = <30>;
+            require-prior-idle-ms = <50>;
             layers = <0>;
+        };
+
+        midle_key {
+            bindings = <&mkp MCLK>;
+            key-positions = <54 53>;
         };
     };
 
@@ -194,7 +199,7 @@
 &kp TAB                  &kp Q           &kp W               &kp E                   &kp R                 &kp T        &mmv MOVE_DOWN   &kp Y      &kp U                  &kp I                        &kp O                  &kp P               &kp BSPC
 &ht_2kp LCTRL ESCAPE     &kp A           &kp S               &kp D                   &kp F                 &kp G        &mmv MOVE_LEFT   &kp H      &kp J                  &kp K                        &kp L                  &kp SEMI            &kp RET
 &mt LSHFT LA(LC(SPACE))  &ht_2kp LGUI Z  &ht_2kp LEFT_ALT X  &ht_2kp LEFT_CONTROL C  &ht_2kp LEFT_SHIFT V  &kp B        &mmv MOVE_RIGHT  &kp N      &ht_2kp RIGHT_SHIFT M  &ht_2kp RIGHT_CONTROL COMMA  &ht_2kp RIGHT_ALT DOT  &ht_2kp RGUI SLASH  &kp BSLH
-&none                    &none           &trans              &mo 6                   &mo 4                 &kp SPACE    &mkp LCLK        &kp SPACE  &mo 5                  &mo 7                        &none                  &mkp RCLK
+&none                    &mkp RCLK       &mkp LCLK           &mo 6                   &mo 4                 &kp SPACE    &mkp LCLK        &kp SPACE  &mo 5                  &mo 7                        &none                  &mkp RCLK
             >;
 
             label = "BASE";
