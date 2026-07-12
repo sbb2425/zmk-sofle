@@ -296,11 +296,11 @@
 
         sym {
             bindings = <
-&none   &none                         &none                      &none                      &none                     &none             &none  &none              &none                           &none                              &none                  &none      &none
-&trans  &kp GRAVE                     &kp TILDE                  &kp LESS_THAN              &kp GREATER_THAN          &kp CARET         &none  &kp APOSTROPHE     &kp LEFT_BRACKET                &kp RIGHT_BRACKET                  &kp ASTERISK           &kp PLUS   &trans
-&trans  &kp AT_SIGN                   &kp HASH                   &kp DOLLAR                 &kp PERCENT               &kp AMPERSAND     &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS              &kp SLASH              &kp MINUS  &trans
-&trans  &ht_2kp LEFT_GUI EXCLAMATION  &ht_2kp LEFT_ALT QUESTION  &ht_2kp LEFT_CONTROL PIPE  &ht_2kp LEFT_SHIFT COLON  &kp UNDERSCORE    &none  &kp COMMA          &ht_2kp RIGHT_SHIFT LEFT_BRACE  &ht_2kp RIGHT_CONTROL RIGHT_BRACE  &ht_2kp RIGHT_ALT DOT  &kp EQUAL  &trans
-&none   &none                         &none                      &trans                     &exit_sym                 &trans            &none  &trans             &exit_sym                       &trans                             &none                  &none
+&none   &none                         &none                      &none                      &none                     &none             &trans  &none              &none                           &none                              &none                  &none      &none
+&trans  &kp GRAVE                     &kp TILDE                  &kp LESS_THAN              &kp GREATER_THAN          &kp CARET         &trans  &kp APOSTROPHE     &kp LEFT_BRACKET                &kp RIGHT_BRACKET                  &kp ASTERISK           &kp PLUS   &trans
+&trans  &kp AT_SIGN                   &kp HASH                   &kp DOLLAR                 &kp PERCENT               &kp AMPERSAND     &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS              &kp SLASH              &kp MINUS  &trans
+&trans  &ht_2kp LEFT_GUI EXCLAMATION  &ht_2kp LEFT_ALT QUESTION  &ht_2kp LEFT_CONTROL PIPE  &ht_2kp LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp COMMA          &ht_2kp RIGHT_SHIFT LEFT_BRACE  &ht_2kp RIGHT_CONTROL RIGHT_BRACE  &ht_2kp RIGHT_ALT DOT  &kp EQUAL  &trans
+&trans  &none                         &none                      &trans                     &exit_sym                 &trans            &trans  &trans             &exit_sym                       &trans                             &none                  &none
             >;
 
             label = "SYM";
@@ -308,11 +308,11 @@
 
         nav {
             bindings = <
-&none         &none                &none                &none             &none                  &none            &none  &none     &none            &none              &none          &none          &none
-&caps_word    &kp HOME             &kp UP               &kp END           &kp PAGE_UP            &kp BACKSPACE    &none  &kp HOME  &kp PG_DN        &kp PG_UP          &kp END        &none          &kp DELETE
-&kp ESCAPE    &kp LEFT             &kp DOWN             &kp RIGHT         &kp PAGE_DOWN          &kp ENTER        &none  &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT      &none          &none
-&kp CAPSLOCK  &ht_2kp LEFT_GUI F1  &ht_2kp LEFT_ALT F2  &ht_2kp LCTRL F3  &ht_2kp LEFT_SHIFT F4  &kp F5           &none  &none     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none         &none                &none                &none             &exit_nav              &none            &none  &none     &exit_nav        &none              &none          &none
+&none         &none     &none     &none      &none          &none     &none  &none     &none      &none      &none      &none   &none
+&caps_word    &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans    &none  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &kp DELETE
+&kp ESCAPE    &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans    &none  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&kp CAPSLOCK  &trans    &trans    &trans     &trans         &trans    &none  &trans    &trans     &trans     &trans     &trans  &trans
+&none         &none     &none     &trans     &exit_nav      &trans    &none  &trans    &exit_nav  &trans     &none      &none
             >;
 
             label = "NAV";
@@ -320,11 +320,11 @@
 
         fn {
             bindings = <
-&none   &none     &none     &none      &none      &none      &none  &none   &none      &none      &none     &none     &none
-&kp F1  &kp F2    &kp F3    &kp F4     &kp F5     &kp F6     &none  &kp F1  &kp F2     &kp F3     &kp F4    &kp F5    &kp F6
-&kp F7  &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &none  &kp F7  &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
-&none   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none      &none  &none   &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
-&none   &none     &none     &none      &exit_fn   &none      &none  &none   &exit_fn   &none      &none     &none
+&none   &none   &none    &none    &none     &none     &none  &none   &none           &none           &none            &none           &none
+&trans  &kp F1  &kp F2   &kp F3   &kp F4    &trans    &none  &trans  &kp LC(LA(F1))  &kp LA(LC(F3))  &kp LA(LC(F3))   &kp LA(LC(F4))  &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8    &trans    &none  &trans  &kp LA(LC(F8))  &kp LA(LC(F9))  &kp LA(LC(F10))  &trans          &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12   &trans    &none  &trans  &trans          &trans          &trans           &trans          &trans
+&none   &none   &none    &trans   &exit_fn  &trans    &none  &trans  &exit_fn        &trans          &none            &none
             >;
 
             label = "FN";
