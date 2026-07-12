@@ -54,8 +54,8 @@ layers:
   - {t: /, h: RGUI, s: '?'}
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
   - NAV
   - NUM
   - $$mdi:keyboard-space$$
@@ -671,3 +671,5 @@ combos:
 - p: [55, 39]
   k: media
   l: [BASE]
+- p: [54, 53]
+  k: $$mdi:mouse-scroll-wheel$$
