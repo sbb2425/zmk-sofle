@@ -417,7 +417,7 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -430,7 +430,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-caps$$', type: held alternate}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -665,7 +665,7 @@ combos:
 - p: [57, 39]
   k: {t: G3, h: '$$mdi:gesture-tap-hold$$'}
   l: [GAME]
-- p: [55, 39]
+- p: [55, 26]
   k: NAV
   l: [GAME]
 - p: [55, 39]
