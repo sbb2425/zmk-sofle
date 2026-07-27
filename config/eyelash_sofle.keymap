@@ -75,35 +75,35 @@
         compatible = "zmk,behavior-tap-dance";
         label = "EXIT_NUM";
         #binding-cells = <0>;
-        bindings = <&tog 4>, <&to 0>;
+        bindings = <&tog 5>, <&to 0>;
     };
 
     exit_sym: exit_sym {
         compatible = "zmk,behavior-tap-dance";
         label = "EXIT_SYM";
         #binding-cells = <0>;
-        bindings = <&tog 5>, <&to 0>;
+        bindings = <&tog 6>, <&to 0>;
     };
 
     exit_nav: exit_nav {
         compatible = "zmk,behavior-tap-dance";
         label = "EXIT_NAV";
         #binding-cells = <0>;
-        bindings = <&tog 6>, <&to 0>;
+        bindings = <&tog 7>, <&to 0>;
     };
 
     exit_fn: exit_fn {
         compatible = "zmk,behavior-tap-dance";
         label = "EXIT_FN";
         #binding-cells = <0>;
-        bindings = <&tog 7>, <&to 0>;
+        bindings = <&tog 8>, <&to 0>;
     };
 
     exit_media: exit_media {
         compatible = "zmk,behavior-tap-dance";
         label = "EXIT_MEDIA";
         #binding-cells = <0>;
-        bindings = <&tog 8>, <&to 0>;
+        bindings = <&tog 9>, <&to 0>;
     };
 
     exit_swap: exit_swap {
@@ -117,7 +117,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "EXIT_FUNC";
         #binding-cells = <0>;
-        bindings = <&tog 9>, <&to 0>;
+        bindings = <&tog 10>, <&to 0>;
     };
 
     exit_mod: exit_mod {
@@ -139,22 +139,22 @@
         };
 
         func_sl {
-            bindings = <&short_sl 9>;
+            bindings = <&short_sl 10>;
             key-positions = <57 55 56>;
-            layers = <0 4 5 6 7 8 1 2 3>;
+            layers = <0 5 6 7 8 9 1 2 3>;
         };
 
         escape_combo {
             bindings = <&kp ESCAPE>;
             key-positions = <34 35>;
-            layers = <0 4 5 6 7>;
+            layers = <0 5 6 7 8>;
             slow-release;
         };
 
         tab_combo {
             bindings = <&kp TAB>;
             key-positions = <29 30>;
-            layers = <0 4 5 6 7>;
+            layers = <0 5 6 7 8>;
             slow-release;
         };
 
@@ -167,7 +167,7 @@
         };
 
         mo_nav_layer {
-            bindings = <&mo 6>;
+            bindings = <&mo 7>;
             key-positions = <55 26>;
             layers = <1>;
             require-prior-idle-ms = <20>;
@@ -175,7 +175,7 @@
         };
 
         mo_media_layer {
-            bindings = <&mo 8>;
+            bindings = <&mo 9>;
             key-positions = <55 39>;
             timeout-ms = <50>;
             require-prior-idle-ms = <50>;
@@ -197,7 +197,7 @@
 &kp TAB                  &kp Q           &kp W               &kp E                   &kp R                 &kp T        &mmv MOVE_DOWN   &kp Y      &kp U                  &kp I                        &kp O                  &kp P               &kp BSPC
 &ht_2kp LCTRL ESCAPE     &kp A           &kp S               &kp D                   &kp F                 &kp G        &mmv MOVE_LEFT   &kp H      &kp J                  &kp K                        &kp L                  &kp SEMI            &kp RET
 &mt LSHFT LA(LC(SPACE))  &ht_2kp LGUI Z  &ht_2kp LEFT_ALT X  &ht_2kp LEFT_CONTROL C  &ht_2kp LEFT_SHIFT V  &kp B        &mmv MOVE_RIGHT  &kp N      &ht_2kp RIGHT_SHIFT M  &ht_2kp RIGHT_CONTROL COMMA  &ht_2kp RIGHT_ALT DOT  &ht_2kp RGUI SLASH  &kp BSLH
-&none                    &mkp RCLK       &mkp LCLK           &mo 6                   &mo 4                 &kp SPACE    &mkp LCLK        &kp SPACE  &mo 5                  &mo 7                        &none                  &mkp RCLK
+&none                    &mkp RCLK       &mkp LCLK           &mo 7                   &mo 5                 &kp SPACE    &mkp LCLK        &kp SPACE  &mo 6                  &mo 8                        &none                  &mkp RCLK
             >;
 
             label = "BASE";
@@ -210,7 +210,7 @@
 &kp TAB     &kp Q  &kp W  &kp E     &kp R      &kp T    &mmv MOVE_DOWN   &kp N6     &kp N7     &kp N8  &kp N9  &kp N0  &none
 &kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G    &mmv MOVE_LEFT   &kp E      &kp R      &kp G   &kp C   &kp Q   &kp ENTER
 &kp LSHFT   &kp Z  &kp X  &kp C     &kp V      &kp B    &mmv MOVE_RIGHT  &kp V      &kp B      &kp Z   &kp X   &kp T   &kp F5
-&kp C_MUTE  &mo 3  &mo 6  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &kp ENTER  &none   &kp F   &kp H
+&kp C_MUTE  &mo 3  &mo 7  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &kp ENTER  &none   &kp F   &kp H
             >;
 
             label = "GAME";
@@ -239,6 +239,16 @@
             >;
 
             label = "G3";
+        };
+
+        game4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
 
         num {
@@ -311,16 +321,6 @@
             >;
 
             label = "func";
-        };
-
-        game4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
