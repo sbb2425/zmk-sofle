@@ -558,7 +558,7 @@ layers:
   - Alt+Ctl+F8
   - Alt+Ctl+F9
   - Alt+Ctl+F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F9
