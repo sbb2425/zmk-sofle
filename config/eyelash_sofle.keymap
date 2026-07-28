@@ -197,7 +197,7 @@
 &kp TAB                  &kp Q           &kp W               &kp E                   &kp R                 &kp T        &mmv MOVE_DOWN   &kp Y      &kp U                  &kp I                        &kp O                  &kp P               &kp BSPC
 &ht_2kp LCTRL ESCAPE     &kp A           &kp S               &kp D                   &kp F                 &kp G        &mmv MOVE_LEFT   &kp H      &kp J                  &kp K                        &kp L                  &kp SEMI            &kp RET
 &mt LSHFT LA(LC(SPACE))  &ht_2kp LGUI Z  &ht_2kp LEFT_ALT X  &ht_2kp LEFT_CONTROL C  &ht_2kp LEFT_SHIFT V  &kp B        &mmv MOVE_RIGHT  &kp N      &ht_2kp RIGHT_SHIFT M  &ht_2kp RIGHT_CONTROL COMMA  &ht_2kp RIGHT_ALT DOT  &ht_2kp RGUI SLASH  &kp BSLH
-&none                    &mkp RCLK       &mkp LCLK           &mo 7                   &mo 5                 &kp SPACE    &mkp LCLK        &kp SPACE  &mo 6                  &mo 8                        &none                  &mkp RCLK
+&none                    &mo 9           &none               &mo 7                   &mo 5                 &kp SPACE    &mkp LCLK        &kp SPACE  &mo 6                  &mo 8                        &none                  &none
             >;
 
             label = "BASE";
@@ -206,11 +206,11 @@
 
         game {
             bindings = <
-&none       &none  &none  &none     &none      &none    &mmv MOVE_UP     &kp N1     &kp N2     &kp N3  &kp N4  &kp N5  &kp ESC
-&kp TAB     &kp Q  &kp W  &kp E     &kp R      &kp T    &mmv MOVE_DOWN   &kp N6     &kp N7     &kp N8  &kp N9  &kp N0  &none
-&kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G    &mmv MOVE_LEFT   &kp E      &kp R      &kp G   &kp C   &kp Q   &kp ENTER
-&kp LSHFT   &kp Z  &kp X  &kp C     &kp V      &kp B    &mmv MOVE_RIGHT  &kp V      &kp B      &kp Z   &kp X   &kp T   &kp F5
-&kp C_MUTE  &mo 3  &mo 7  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &kp ENTER  &none   &kp F   &kp H
+&none       &none  &none  &none     &none      &none    &mmv MOVE_UP     &kp N1     &kp N2  &kp N3          &kp N4  &kp N5  &kp ESC
+&kp TAB     &kp Q  &kp W  &kp E     &kp R      &kp T    &mmv MOVE_DOWN   &kp N6     &kp N7  &kp N8          &kp N9  &kp N0  &none
+&kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G    &mmv MOVE_LEFT   &kp E      &kp R   &kp G           &kp C   &kp Q   &kp ENTER
+&kp LSHFT   &kp Z  &kp X  &kp C     &kp V      &kp B    &mmv MOVE_RIGHT  &kp V      &kp B   &kp Z           &kp X   &kp T   &kp F5
+&kp C_MUTE  &mo 3  &mo 7  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &mo 4   &kp DOWN_ARROW  &kp F   &kp H
             >;
 
             label = "GAME";
