@@ -79,7 +79,7 @@
 &kp TAB     &kp Q  &kp W  &kp E     &kp R      &kp T    &mmv MOVE_DOWN   &kp N6     &kp N7  &kp N8          &kp N9  &kp N0  &none
 &kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G    &mmv MOVE_LEFT   &kp E      &kp R   &kp G           &kp C   &kp Q   &kp ENTER
 &kp LSHFT   &kp Z  &kp X  &kp C     &kp V      &kp B    &mmv MOVE_RIGHT  &kp V      &kp B   &kp Z           &kp X   &kp T   &kp F5
-&kp C_MUTE  &mo 3  &mo 7  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &mo 4   &kp DOWN_ARROW  &kp F   &kp H
+&kp C_MUTE  &mo 9  &mo 7  &kp LALT  &kp SPACE  &mo 2    &mkp LCLK        &kp SPACE  &mo 4   &kp DOWN_ARROW  &kp F   &kp H
             >;
 
             label = "GAME";
