@@ -35,14 +35,6 @@
 &sk { release-after-ms = <5000>; };
 
 / {
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-        tap-ms = <100>;
-    };
-
     ht_2kp: ht_2kp {
         compatible = "zmk,behavior-hold-tap";
         label = "HT_2KP";
@@ -51,71 +43,6 @@
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         flavor = "tap-preferred";
-    };
-
-    short_sl: short_sl {
-        compatible = "zmk,behavior-sticky-key";
-        label = "SHORT_SL";
-        bindings = <&sl>;
-        #binding-cells = <1>;
-        release-after-ms = <1000>;
-        quick-release;
-    };
-
-    exit_num: exit_num {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_NUM";
-        #binding-cells = <0>;
-        bindings = <&tog 5>, <&to 0>;
-    };
-
-    exit_sym: exit_sym {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_SYM";
-        #binding-cells = <0>;
-        bindings = <&tog 6>, <&to 0>;
-    };
-
-    exit_nav: exit_nav {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_NAV";
-        #binding-cells = <0>;
-        bindings = <&tog 7>, <&to 0>;
-    };
-
-    exit_fn: exit_fn {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_FN";
-        #binding-cells = <0>;
-        bindings = <&tog 8>, <&to 0>;
-    };
-
-    exit_media: exit_media {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_MEDIA";
-        #binding-cells = <0>;
-        bindings = <&tog 9>, <&to 0>;
-    };
-
-    exit_swap: exit_swap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_SWAP";
-        #binding-cells = <0>;
-        bindings = <&tog 0>, <&to 0>;
-    };
-
-    exit_func: exit_func {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_FUNC";
-        #binding-cells = <0>;
-        bindings = <&tog 10>, <&to 0>;
-    };
-
-    exit_mod: exit_mod {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EXIT_MOD";
-        #binding-cells = <0>;
-        bindings = <&tog 0>, <&to 0>;
     };
 
     behaviors {
@@ -199,7 +126,7 @@
 &trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans       &none  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
 &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans       &none  &trans  &kp N4        &kp N5        &kp N6        &trans  &trans
 &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&none   &none   &none         &kp NUMBER_0  &exit_num     &kp SPACE    &none  &trans  &trans        &kp N0        &none         &none
+&none   &none   &none         &kp NUMBER_0  &trans        &kp SPACE    &none  &trans  &trans        &kp N0        &none         &none
             >;
 
             label = "NUM";
@@ -211,7 +138,7 @@
 &trans  &kp GRAVE                     &kp TILDE                  &kp LESS_THAN              &kp GREATER_THAN          &kp CARET         &trans  &kp APOSTROPHE     &kp LEFT_BRACKET                &kp RIGHT_BRACKET                  &kp ASTERISK           &kp PLUS   &trans
 &trans  &kp AT_SIGN                   &kp HASH                   &kp DOLLAR                 &kp PERCENT               &kp AMPERSAND     &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS              &kp SLASH              &kp MINUS  &trans
 &trans  &ht_2kp LEFT_GUI EXCLAMATION  &ht_2kp LEFT_ALT QUESTION  &ht_2kp LEFT_CONTROL PIPE  &ht_2kp LEFT_SHIFT COLON  &kp UNDERSCORE    &trans  &kp COMMA          &ht_2kp RIGHT_SHIFT LEFT_BRACE  &ht_2kp RIGHT_CONTROL RIGHT_BRACE  &ht_2kp RIGHT_ALT DOT  &kp EQUAL  &trans
-&trans  &none                         &none                      &trans                     &exit_sym                 &trans            &trans  &trans             &exit_sym                       &trans                             &none                  &none
+&trans  &none                         &none                      &trans                     &trans                    &trans            &trans  &trans             &trans                          &trans                             &none                  &none
             >;
 
             label = "SYM";
@@ -223,7 +150,7 @@
 &caps_word    &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans    &none  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &kp DELETE
 &kp ESCAPE    &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans    &none  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
 &kp CAPSLOCK  &trans    &trans    &trans     &trans         &trans    &none  &trans    &trans     &trans     &trans     &trans  &trans
-&none         &none     &none     &trans     &exit_nav      &trans    &none  &trans    &exit_nav  &trans     &none      &none
+&none         &none     &none     &trans     &trans         &trans    &none  &trans    &trans     &trans     &none      &none
             >;
 
             label = "NAV";
@@ -231,11 +158,11 @@
 
         fn {
             bindings = <
-&none   &none   &none    &none    &none     &none     &none  &none   &none           &none           &none            &none               &none
-&trans  &kp F1  &kp F2   &kp F3   &kp F4    &trans    &none  &trans  &kp LC(LA(F1))  &kp LA(LC(F3))  &kp LA(LC(F3))   &kp LA(LC(F4))      &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8    &trans    &none  &trans  &kp LA(LC(F8))  &kp LA(LC(F9))  &kp LA(LC(F10))  &kp LC(LA(DELETE))  &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12   &trans    &none  &trans  &trans          &trans          &trans           &trans              &trans
-&none   &none   &none    &trans   &exit_fn  &trans    &none  &trans  &exit_fn        &trans          &none            &none
+&none   &none   &none    &none    &none    &none     &none  &none   &none           &none           &none            &none               &none
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans    &none  &trans  &kp LC(LA(F1))  &kp LA(LC(F3))  &kp LA(LC(F3))   &kp LA(LC(F4))      &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans    &none  &trans  &kp LA(LC(F8))  &kp LA(LC(F9))  &kp LA(LC(F10))  &kp LC(LA(DELETE))  &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &none  &trans  &trans          &trans          &trans           &trans              &trans
+&none   &trans  &trans   &trans   &trans   &trans    &none  &trans  &trans          &trans          &trans           &trans
             >;
 
             label = "FN";
