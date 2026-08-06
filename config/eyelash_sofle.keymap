@@ -128,49 +128,6 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
-
-        escape_combo {
-            bindings = <&kp ESCAPE>;
-            key-positions = <34 35>;
-            layers = <0 5 6 7 8>;
-            slow-release;
-        };
-
-        tab_combo {
-            bindings = <&kp TAB>;
-            key-positions = <29 30>;
-            layers = <0 5 6 7 8>;
-            slow-release;
-        };
-
-        sl_game3_layer {
-            bindings = <&sl 3>;
-            key-positions = <57 39>;
-            layers = <1>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <50>;
-        };
-
-        mo_nav_layer {
-            bindings = <&mo 7>;
-            key-positions = <55 26>;
-            layers = <1>;
-            require-prior-idle-ms = <20>;
-            timeout-ms = <70>;
-        };
-
-        mo_media_layer {
-            bindings = <&mo 9>;
-            key-positions = <55 39>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
-        midle_key {
-            bindings = <&mkp MCLK>;
-            key-positions = <54 53>;
-        };
     };
 
     keymap {
