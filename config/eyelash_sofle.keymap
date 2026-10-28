@@ -95,11 +95,11 @@
 
         game1 {
             bindings = <
-&trans      &trans  &trans  &trans        &trans     &trans    &mmv MOVE_UP     &trans     &trans  &trans    &trans  &trans  &trans
-&kp TAB     &kp Q   &kp W   &kp E         &kp R      &kp T     &mmv MOVE_DOWN   &kp N1     &kp N2  &kp N3    &kp N4  &kp N5  &kp ESC
-&kp LCTRL   &kp A   &kp S   &kp D         &kp F      &kp G     &mmv MOVE_LEFT   &kp E      &kp R   &kp G     &kp C   &kp Q   &kp RET
-&kp LSHFT   &kp Z   &kp X   &kp C         &kp V      &kp B     &mmv MOVE_RIGHT  &kp V      &kp B   &kp Z     &kp X   &kp T   &kp F5
-&kp C_MUTE  &trans  &trans  &kp LEFT_ALT  &kp SPACE  &trans    &mkp LCLK        &kp SPACE  &trans  &mkp MB1  &kp F   &kp H
+&trans      &trans  &trans  &trans        &trans     &trans    &mmv MOVE_UP     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp GRAVE
+&kp TAB     &kp Q   &kp W   &kp E         &kp R      &kp T     &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp ESC
+&kp LCTRL   &kp A   &kp S   &kp D         &kp F      &kp G     &mmv MOVE_LEFT   &kp E         &kp R         &kp G         &kp C         &kp Q         &kp RET
+&kp LSHFT   &kp Z   &kp X   &kp C         &kp V      &kp B     &mmv MOVE_RIGHT  &kp V         &kp B         &kp Z         &kp X         &kp T         &kp F5
+&kp C_MUTE  &trans  &trans  &kp LEFT_ALT  &kp SPACE  &mo 2     &mkp LCLK        &kp SPACE     &trans        &mkp MB1      &kp F         &kp H
             >;
 
             display-name = "game1";
@@ -108,14 +108,16 @@
                 <&rsr_trans>;
         };
 
-        layer_2 {
+        game2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE   &trans        &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &trans        &trans        &trans        &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_5  &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "game2";
         };
     };
 };
