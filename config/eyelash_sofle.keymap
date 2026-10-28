@@ -99,7 +99,7 @@
 &kp TAB     &kp Q   &kp W   &kp E         &kp R      &kp T     &mmv MOVE_DOWN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp ESC
 &kp LCTRL   &kp A   &kp S   &kp D         &kp F      &kp G     &mmv MOVE_LEFT   &kp E         &kp R         &kp G         &kp C         &kp Q         &kp RET
 &kp LSHFT   &kp Z   &kp X   &kp C         &kp V      &kp B     &mmv MOVE_RIGHT  &kp V         &kp B         &kp Z         &kp X         &kp T         &kp F5
-&kp C_MUTE  &trans  &trans  &kp LEFT_ALT  &kp SPACE  &mo 2     &mkp LCLK        &kp SPACE     &trans        &mkp MB1      &kp F         &kp H
+&kp C_MUTE  &trans  &trans  &kp LEFT_ALT  &kp SPACE  &mo 2     &mkp LCLK        &kp SPACE     &mo 4         &mkp MB1      &kp F         &kp H
             >;
 
             display-name = "game1";
