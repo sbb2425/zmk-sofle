@@ -131,5 +131,17 @@
 
             label = "game3";
         };
+
+        game4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N5    &kp N6  &kp N7     &kp N8  &kp N9  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1    &kp N2  &kp N3     &kp N4  &kp N5  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp UP  &kp RIGHT  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans     &trans  &trans
+            >;
+
+            label = "game4";
+        };
     };
 };
