@@ -86,7 +86,7 @@
 &kp TAB           &kp Q   &kp W     &kp E   &kp R   &kp T        &mmv MOVE_DOWN   &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSPC
 &mt LCTRL ESCAPE  &kp A   &kp S     &kp D   &kp F   &kp G        &mmv MOVE_LEFT   &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp RET
 &kp LSHFT         &kp Z   &kp X     &kp C   &kp V   &kp B        &mmv MOVE_RIGHT  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-&kp C_MUTE        &trans  &mkp MB1  &trans  &mo 5   &kp SPACE    &mkp LCLK        &kp SPACE  &trans  &trans     &trans   &trans
+&kp C_MUTE        &trans  &mkp MB1  &trans  &mo 5   &kp SPACE    &mkp LCLK        &kp SPACE  &mo 6   &trans     &trans   &trans
             >;
 
             display-name = "base";
@@ -154,6 +154,18 @@
             >;
 
             label = "num";
+        };
+
+        sym {
+            bindings = <
+&trans  &trans           &trans        &trans         &trans            &trans            &trans  &trans             &trans                &trans                 &trans        &trans     &trans
+&trans  &kp GRAVE        &kp TILDE     &kp LESS_THAN  &kp GREATER_THAN  &kp CARET         &trans  &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTERISK  &kp PLUS   &trans
+&trans  &kp AT_SIGN      &kp HASH      &kp DOLLAR     &kp PERCENT       &kp AMPERSAND     &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH     &kp MINUS  &trans
+&trans  &kp EXCLAMATION  &kp QUESTION  &kp PIPE       &kp COLON         &kp UNDERSCORE    &trans  &kp COMMA          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOT       &kp EQUAL  &trans
+&trans  &trans           &trans        &trans         &trans            &trans            &trans  &trans             &trans                &trans                 &trans        &trans
+            >;
+
+            label = "sym";
         };
     };
 };
