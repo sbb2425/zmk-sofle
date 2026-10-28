@@ -119,5 +119,17 @@
 
             label = "game2";
         };
+
+        game3 {
+            bindings = <
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F5      &kp Y   &kp U   &kp I   &kp O   &kp P       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp H   &kp J   &kp K   &kp L   &kp RET     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp N   &kp M   &trans  &trans  &kp BSPC    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "game3";
+        };
     };
 };
